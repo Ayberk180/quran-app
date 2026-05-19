@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "title": "Masjid Quran Learning",
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "number": 1,
+      "title": "The Arabic Letters",
+      "title_ar": "الحروف العربية",
+      "description": "Individual letters in their isolated form.",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-01/phrase-001.webp",
+          "audio": "/audio/phrases/lesson-01/phrase-001.mp3",
+          "transliteration": "alif",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-01/phrase-002.webp",
+          "audio": "/audio/phrases/lesson-01/phrase-002.mp3",
+          "transliteration": "ba",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-02",
+      "number": 2,
+      "title": "Connected Letters",
+      "title_ar": "الحروف المتصلة",
+      "description": "Letters joined together in beginning, middle, and end forms.",
+      "phrases": []
+    }
+  ]
+}

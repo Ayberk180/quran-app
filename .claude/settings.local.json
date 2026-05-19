@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m py_compile /home/ayberk/Documents/quran-app/scripts/slice-pdf.py)",
+      "Bash(python3 /home/ayberk/Documents/quran-app/scripts/slice-pdf.py --help)",
+      "Bash(/home/ayberk/Documents/quran-app/scripts/.venv/bin/python /home/ayberk/Documents/quran-app/scripts/slice-pdf.py --help)"
+    ]
+  }
+}

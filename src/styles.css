@@ -1,0 +1,43 @@
+/* Global styles. Mobile-first. */
+
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-accent: #0f5132;
+  --color-muted: #6b7280;
+  --radius: 12px;
+  --space: 1rem;
+  --font-arabic: 'Amiri Quran', 'Scheherazade New', serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#app {
+  min-height: 100vh;
+  padding: var(--space);
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* RTL utility — apply to lesson view */
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.arabic {
+  font-family: var(--font-arabic);
+  font-size: 1.5em;
+}

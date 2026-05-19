@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# Source assets — original PDF and raw audio recordings.
+# These may be too large for git and may have licensing constraints.
+# Keep them local; back them up separately.
+assets-source/
+
+# Python virtualenv for scripts
+scripts/.venv/
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+.idea/
+*.swp
