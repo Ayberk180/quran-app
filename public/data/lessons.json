@@ -5,22 +5,211 @@
     {
       "id": "lesson-01",
       "number": 1,
-      "title": "The Arabic Letters",
-      "title_ar": "الحروف العربية",
-      "description": "Individual letters in their isolated form.",
+      "title": "Lesson 1",
+      "title_ar": "",
+      "description": "",
       "phrases": [
         {
           "id": "phrase-001",
-          "image": "/images/phrases/lesson-01/phrase-001.webp",
+          "image": "/images/phrases/lesson-01/phrase-001.png",
           "audio": "/audio/phrases/lesson-01/phrase-001.mp3",
-          "transliteration": "alif",
+          "transliteration": "",
           "notes": ""
         },
         {
           "id": "phrase-002",
-          "image": "/images/phrases/lesson-01/phrase-002.webp",
+          "image": "/images/phrases/lesson-01/phrase-002.png",
           "audio": "/audio/phrases/lesson-01/phrase-002.mp3",
-          "transliteration": "ba",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-01/phrase-003.png",
+          "audio": "/audio/phrases/lesson-01/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-01/phrase-004.png",
+          "audio": "/audio/phrases/lesson-01/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-01/phrase-005.png",
+          "audio": "/audio/phrases/lesson-01/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-01/phrase-006.png",
+          "audio": "/audio/phrases/lesson-01/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-01/phrase-007.png",
+          "audio": "/audio/phrases/lesson-01/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-01/phrase-008.png",
+          "audio": "/audio/phrases/lesson-01/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-01/phrase-009.png",
+          "audio": "/audio/phrases/lesson-01/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-01/phrase-010.png",
+          "audio": "/audio/phrases/lesson-01/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-01/phrase-011.png",
+          "audio": "/audio/phrases/lesson-01/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-01/phrase-012.png",
+          "audio": "/audio/phrases/lesson-01/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-01/phrase-013.png",
+          "audio": "/audio/phrases/lesson-01/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-01/phrase-014.png",
+          "audio": "/audio/phrases/lesson-01/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-01/phrase-015.png",
+          "audio": "/audio/phrases/lesson-01/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-01/phrase-016.png",
+          "audio": "/audio/phrases/lesson-01/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-01/phrase-017.png",
+          "audio": "/audio/phrases/lesson-01/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-01/phrase-018.png",
+          "audio": "/audio/phrases/lesson-01/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-01/phrase-019.png",
+          "audio": "/audio/phrases/lesson-01/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-01/phrase-020.png",
+          "audio": "/audio/phrases/lesson-01/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-01/phrase-021.png",
+          "audio": "/audio/phrases/lesson-01/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-01/phrase-022.png",
+          "audio": "/audio/phrases/lesson-01/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-01/phrase-023.png",
+          "audio": "/audio/phrases/lesson-01/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-01/phrase-024.png",
+          "audio": "/audio/phrases/lesson-01/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-01/phrase-025.png",
+          "audio": "/audio/phrases/lesson-01/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-01/phrase-026.png",
+          "audio": "/audio/phrases/lesson-01/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-01/phrase-027.png",
+          "audio": "/audio/phrases/lesson-01/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-01/phrase-028.png",
+          "audio": "/audio/phrases/lesson-01/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-029",
+          "image": "/images/phrases/lesson-01/phrase-029.png",
+          "audio": "/audio/phrases/lesson-01/phrase-029.mp3",
+          "transliteration": "",
           "notes": ""
         }
       ]
@@ -28,10 +217,5586 @@
     {
       "id": "lesson-02",
       "number": 2,
-      "title": "Connected Letters",
-      "title_ar": "الحروف المتصلة",
-      "description": "Letters joined together in beginning, middle, and end forms.",
-      "phrases": []
+      "title": "Lesson 2",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-02/phrase-001.png",
+          "audio": "/audio/phrases/lesson-02/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-02/phrase-002.png",
+          "audio": "/audio/phrases/lesson-02/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-02/phrase-003.png",
+          "audio": "/audio/phrases/lesson-02/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-02/phrase-004.png",
+          "audio": "/audio/phrases/lesson-02/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-02/phrase-005.png",
+          "audio": "/audio/phrases/lesson-02/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-02/phrase-006.png",
+          "audio": "/audio/phrases/lesson-02/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-02/phrase-007.png",
+          "audio": "/audio/phrases/lesson-02/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-02/phrase-008.png",
+          "audio": "/audio/phrases/lesson-02/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-02/phrase-009.png",
+          "audio": "/audio/phrases/lesson-02/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-02/phrase-010.png",
+          "audio": "/audio/phrases/lesson-02/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-02/phrase-011.png",
+          "audio": "/audio/phrases/lesson-02/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-02/phrase-012.png",
+          "audio": "/audio/phrases/lesson-02/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-02/phrase-013.png",
+          "audio": "/audio/phrases/lesson-02/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-02/phrase-014.png",
+          "audio": "/audio/phrases/lesson-02/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-02/phrase-015.png",
+          "audio": "/audio/phrases/lesson-02/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-02/phrase-016.png",
+          "audio": "/audio/phrases/lesson-02/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-02/phrase-017.png",
+          "audio": "/audio/phrases/lesson-02/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-02/phrase-018.png",
+          "audio": "/audio/phrases/lesson-02/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-02/phrase-019.png",
+          "audio": "/audio/phrases/lesson-02/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-02/phrase-020.png",
+          "audio": "/audio/phrases/lesson-02/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-02/phrase-021.png",
+          "audio": "/audio/phrases/lesson-02/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-02/phrase-022.png",
+          "audio": "/audio/phrases/lesson-02/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-02/phrase-023.png",
+          "audio": "/audio/phrases/lesson-02/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-02/phrase-024.png",
+          "audio": "/audio/phrases/lesson-02/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-02/phrase-025.png",
+          "audio": "/audio/phrases/lesson-02/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-02/phrase-026.png",
+          "audio": "/audio/phrases/lesson-02/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-02/phrase-027.png",
+          "audio": "/audio/phrases/lesson-02/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-02/phrase-028.png",
+          "audio": "/audio/phrases/lesson-02/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-03",
+      "number": 3,
+      "title": "Lesson 3",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-03/phrase-001.png",
+          "audio": "/audio/phrases/lesson-03/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-03/phrase-002.png",
+          "audio": "/audio/phrases/lesson-03/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-03/phrase-003.png",
+          "audio": "/audio/phrases/lesson-03/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-03/phrase-004.png",
+          "audio": "/audio/phrases/lesson-03/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-03/phrase-005.png",
+          "audio": "/audio/phrases/lesson-03/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-03/phrase-006.png",
+          "audio": "/audio/phrases/lesson-03/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-03/phrase-007.png",
+          "audio": "/audio/phrases/lesson-03/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-03/phrase-008.png",
+          "audio": "/audio/phrases/lesson-03/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-03/phrase-009.png",
+          "audio": "/audio/phrases/lesson-03/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-03/phrase-010.png",
+          "audio": "/audio/phrases/lesson-03/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-03/phrase-011.png",
+          "audio": "/audio/phrases/lesson-03/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-03/phrase-012.png",
+          "audio": "/audio/phrases/lesson-03/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-03/phrase-013.png",
+          "audio": "/audio/phrases/lesson-03/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-03/phrase-014.png",
+          "audio": "/audio/phrases/lesson-03/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-03/phrase-015.png",
+          "audio": "/audio/phrases/lesson-03/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-03/phrase-016.png",
+          "audio": "/audio/phrases/lesson-03/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-03/phrase-017.png",
+          "audio": "/audio/phrases/lesson-03/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-03/phrase-018.png",
+          "audio": "/audio/phrases/lesson-03/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-03/phrase-019.png",
+          "audio": "/audio/phrases/lesson-03/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-03/phrase-020.png",
+          "audio": "/audio/phrases/lesson-03/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-03/phrase-021.png",
+          "audio": "/audio/phrases/lesson-03/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-03/phrase-022.png",
+          "audio": "/audio/phrases/lesson-03/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-03/phrase-023.png",
+          "audio": "/audio/phrases/lesson-03/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-03/phrase-024.png",
+          "audio": "/audio/phrases/lesson-03/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-03/phrase-025.png",
+          "audio": "/audio/phrases/lesson-03/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-03/phrase-026.png",
+          "audio": "/audio/phrases/lesson-03/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-03/phrase-027.png",
+          "audio": "/audio/phrases/lesson-03/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-03/phrase-028.png",
+          "audio": "/audio/phrases/lesson-03/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-04",
+      "number": 4,
+      "title": "Lesson 4",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-04/phrase-001.png",
+          "audio": "/audio/phrases/lesson-04/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-04/phrase-002.png",
+          "audio": "/audio/phrases/lesson-04/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-04/phrase-003.png",
+          "audio": "/audio/phrases/lesson-04/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-04/phrase-004.png",
+          "audio": "/audio/phrases/lesson-04/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-04/phrase-005.png",
+          "audio": "/audio/phrases/lesson-04/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-04/phrase-006.png",
+          "audio": "/audio/phrases/lesson-04/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-04/phrase-007.png",
+          "audio": "/audio/phrases/lesson-04/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-04/phrase-008.png",
+          "audio": "/audio/phrases/lesson-04/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-04/phrase-009.png",
+          "audio": "/audio/phrases/lesson-04/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-04/phrase-010.png",
+          "audio": "/audio/phrases/lesson-04/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-04/phrase-011.png",
+          "audio": "/audio/phrases/lesson-04/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-04/phrase-012.png",
+          "audio": "/audio/phrases/lesson-04/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-04/phrase-013.png",
+          "audio": "/audio/phrases/lesson-04/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-04/phrase-014.png",
+          "audio": "/audio/phrases/lesson-04/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-04/phrase-015.png",
+          "audio": "/audio/phrases/lesson-04/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-04/phrase-016.png",
+          "audio": "/audio/phrases/lesson-04/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-04/phrase-017.png",
+          "audio": "/audio/phrases/lesson-04/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-04/phrase-018.png",
+          "audio": "/audio/phrases/lesson-04/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-04/phrase-019.png",
+          "audio": "/audio/phrases/lesson-04/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-04/phrase-020.png",
+          "audio": "/audio/phrases/lesson-04/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-04/phrase-021.png",
+          "audio": "/audio/phrases/lesson-04/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-04/phrase-022.png",
+          "audio": "/audio/phrases/lesson-04/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-04/phrase-023.png",
+          "audio": "/audio/phrases/lesson-04/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-04/phrase-024.png",
+          "audio": "/audio/phrases/lesson-04/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-04/phrase-025.png",
+          "audio": "/audio/phrases/lesson-04/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-04/phrase-026.png",
+          "audio": "/audio/phrases/lesson-04/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-04/phrase-027.png",
+          "audio": "/audio/phrases/lesson-04/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-04/phrase-028.png",
+          "audio": "/audio/phrases/lesson-04/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-05",
+      "number": 5,
+      "title": "Lesson 5",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-05/phrase-001.png",
+          "audio": "/audio/phrases/lesson-05/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-05/phrase-002.png",
+          "audio": "/audio/phrases/lesson-05/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-05/phrase-003.png",
+          "audio": "/audio/phrases/lesson-05/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-05/phrase-004.png",
+          "audio": "/audio/phrases/lesson-05/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-05/phrase-005.png",
+          "audio": "/audio/phrases/lesson-05/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-05/phrase-006.png",
+          "audio": "/audio/phrases/lesson-05/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-05/phrase-007.png",
+          "audio": "/audio/phrases/lesson-05/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-05/phrase-008.png",
+          "audio": "/audio/phrases/lesson-05/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-05/phrase-009.png",
+          "audio": "/audio/phrases/lesson-05/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-05/phrase-010.png",
+          "audio": "/audio/phrases/lesson-05/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-05/phrase-011.png",
+          "audio": "/audio/phrases/lesson-05/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-05/phrase-012.png",
+          "audio": "/audio/phrases/lesson-05/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-05/phrase-013.png",
+          "audio": "/audio/phrases/lesson-05/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-05/phrase-014.png",
+          "audio": "/audio/phrases/lesson-05/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-05/phrase-015.png",
+          "audio": "/audio/phrases/lesson-05/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-05/phrase-016.png",
+          "audio": "/audio/phrases/lesson-05/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-05/phrase-017.png",
+          "audio": "/audio/phrases/lesson-05/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-05/phrase-018.png",
+          "audio": "/audio/phrases/lesson-05/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-05/phrase-019.png",
+          "audio": "/audio/phrases/lesson-05/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-05/phrase-020.png",
+          "audio": "/audio/phrases/lesson-05/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-05/phrase-021.png",
+          "audio": "/audio/phrases/lesson-05/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-05/phrase-022.png",
+          "audio": "/audio/phrases/lesson-05/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-05/phrase-023.png",
+          "audio": "/audio/phrases/lesson-05/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-05/phrase-024.png",
+          "audio": "/audio/phrases/lesson-05/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-05/phrase-025.png",
+          "audio": "/audio/phrases/lesson-05/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-05/phrase-026.png",
+          "audio": "/audio/phrases/lesson-05/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-05/phrase-027.png",
+          "audio": "/audio/phrases/lesson-05/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-05/phrase-028.png",
+          "audio": "/audio/phrases/lesson-05/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-06",
+      "number": 6,
+      "title": "Lesson 6",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-06/phrase-001.png",
+          "audio": "/audio/phrases/lesson-06/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-06/phrase-002.png",
+          "audio": "/audio/phrases/lesson-06/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-06/phrase-003.png",
+          "audio": "/audio/phrases/lesson-06/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-06/phrase-004.png",
+          "audio": "/audio/phrases/lesson-06/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-06/phrase-005.png",
+          "audio": "/audio/phrases/lesson-06/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-06/phrase-006.png",
+          "audio": "/audio/phrases/lesson-06/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-06/phrase-007.png",
+          "audio": "/audio/phrases/lesson-06/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-06/phrase-008.png",
+          "audio": "/audio/phrases/lesson-06/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-06/phrase-009.png",
+          "audio": "/audio/phrases/lesson-06/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-06/phrase-010.png",
+          "audio": "/audio/phrases/lesson-06/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-06/phrase-011.png",
+          "audio": "/audio/phrases/lesson-06/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-06/phrase-012.png",
+          "audio": "/audio/phrases/lesson-06/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-06/phrase-013.png",
+          "audio": "/audio/phrases/lesson-06/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-06/phrase-014.png",
+          "audio": "/audio/phrases/lesson-06/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-06/phrase-015.png",
+          "audio": "/audio/phrases/lesson-06/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-06/phrase-016.png",
+          "audio": "/audio/phrases/lesson-06/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-06/phrase-017.png",
+          "audio": "/audio/phrases/lesson-06/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-06/phrase-018.png",
+          "audio": "/audio/phrases/lesson-06/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-06/phrase-019.png",
+          "audio": "/audio/phrases/lesson-06/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-06/phrase-020.png",
+          "audio": "/audio/phrases/lesson-06/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-06/phrase-021.png",
+          "audio": "/audio/phrases/lesson-06/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-06/phrase-022.png",
+          "audio": "/audio/phrases/lesson-06/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-06/phrase-023.png",
+          "audio": "/audio/phrases/lesson-06/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-06/phrase-024.png",
+          "audio": "/audio/phrases/lesson-06/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-06/phrase-025.png",
+          "audio": "/audio/phrases/lesson-06/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-06/phrase-026.png",
+          "audio": "/audio/phrases/lesson-06/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-06/phrase-027.png",
+          "audio": "/audio/phrases/lesson-06/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-06/phrase-028.png",
+          "audio": "/audio/phrases/lesson-06/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-07",
+      "number": 7,
+      "title": "Lesson 7",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-07/phrase-001.png",
+          "audio": "/audio/phrases/lesson-07/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-07/phrase-002.png",
+          "audio": "/audio/phrases/lesson-07/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-07/phrase-003.png",
+          "audio": "/audio/phrases/lesson-07/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-07/phrase-004.png",
+          "audio": "/audio/phrases/lesson-07/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-07/phrase-005.png",
+          "audio": "/audio/phrases/lesson-07/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-07/phrase-006.png",
+          "audio": "/audio/phrases/lesson-07/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-07/phrase-007.png",
+          "audio": "/audio/phrases/lesson-07/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-07/phrase-008.png",
+          "audio": "/audio/phrases/lesson-07/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-07/phrase-009.png",
+          "audio": "/audio/phrases/lesson-07/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-07/phrase-010.png",
+          "audio": "/audio/phrases/lesson-07/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-07/phrase-011.png",
+          "audio": "/audio/phrases/lesson-07/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-07/phrase-012.png",
+          "audio": "/audio/phrases/lesson-07/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-07/phrase-013.png",
+          "audio": "/audio/phrases/lesson-07/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-07/phrase-014.png",
+          "audio": "/audio/phrases/lesson-07/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-07/phrase-015.png",
+          "audio": "/audio/phrases/lesson-07/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-07/phrase-016.png",
+          "audio": "/audio/phrases/lesson-07/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-07/phrase-017.png",
+          "audio": "/audio/phrases/lesson-07/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-07/phrase-018.png",
+          "audio": "/audio/phrases/lesson-07/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-07/phrase-019.png",
+          "audio": "/audio/phrases/lesson-07/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-07/phrase-020.png",
+          "audio": "/audio/phrases/lesson-07/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-07/phrase-021.png",
+          "audio": "/audio/phrases/lesson-07/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-07/phrase-022.png",
+          "audio": "/audio/phrases/lesson-07/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-07/phrase-023.png",
+          "audio": "/audio/phrases/lesson-07/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-07/phrase-024.png",
+          "audio": "/audio/phrases/lesson-07/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-07/phrase-025.png",
+          "audio": "/audio/phrases/lesson-07/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-07/phrase-026.png",
+          "audio": "/audio/phrases/lesson-07/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-07/phrase-027.png",
+          "audio": "/audio/phrases/lesson-07/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-07/phrase-028.png",
+          "audio": "/audio/phrases/lesson-07/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-08",
+      "number": 8,
+      "title": "Lesson 8",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-08/phrase-001.png",
+          "audio": "/audio/phrases/lesson-08/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-08/phrase-002.png",
+          "audio": "/audio/phrases/lesson-08/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-08/phrase-003.png",
+          "audio": "/audio/phrases/lesson-08/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-08/phrase-004.png",
+          "audio": "/audio/phrases/lesson-08/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-08/phrase-005.png",
+          "audio": "/audio/phrases/lesson-08/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-08/phrase-006.png",
+          "audio": "/audio/phrases/lesson-08/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-08/phrase-007.png",
+          "audio": "/audio/phrases/lesson-08/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-08/phrase-008.png",
+          "audio": "/audio/phrases/lesson-08/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-08/phrase-009.png",
+          "audio": "/audio/phrases/lesson-08/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-08/phrase-010.png",
+          "audio": "/audio/phrases/lesson-08/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-08/phrase-011.png",
+          "audio": "/audio/phrases/lesson-08/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-08/phrase-012.png",
+          "audio": "/audio/phrases/lesson-08/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-08/phrase-013.png",
+          "audio": "/audio/phrases/lesson-08/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-08/phrase-014.png",
+          "audio": "/audio/phrases/lesson-08/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-08/phrase-015.png",
+          "audio": "/audio/phrases/lesson-08/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-08/phrase-016.png",
+          "audio": "/audio/phrases/lesson-08/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-08/phrase-017.png",
+          "audio": "/audio/phrases/lesson-08/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-08/phrase-018.png",
+          "audio": "/audio/phrases/lesson-08/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-08/phrase-019.png",
+          "audio": "/audio/phrases/lesson-08/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-08/phrase-020.png",
+          "audio": "/audio/phrases/lesson-08/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-08/phrase-021.png",
+          "audio": "/audio/phrases/lesson-08/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-08/phrase-022.png",
+          "audio": "/audio/phrases/lesson-08/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-08/phrase-023.png",
+          "audio": "/audio/phrases/lesson-08/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-08/phrase-024.png",
+          "audio": "/audio/phrases/lesson-08/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-08/phrase-025.png",
+          "audio": "/audio/phrases/lesson-08/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-08/phrase-026.png",
+          "audio": "/audio/phrases/lesson-08/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-08/phrase-027.png",
+          "audio": "/audio/phrases/lesson-08/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-08/phrase-028.png",
+          "audio": "/audio/phrases/lesson-08/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-09",
+      "number": 9,
+      "title": "Lesson 9",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-09/phrase-001.png",
+          "audio": "/audio/phrases/lesson-09/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-09/phrase-002.png",
+          "audio": "/audio/phrases/lesson-09/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-09/phrase-003.png",
+          "audio": "/audio/phrases/lesson-09/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-09/phrase-004.png",
+          "audio": "/audio/phrases/lesson-09/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-09/phrase-005.png",
+          "audio": "/audio/phrases/lesson-09/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-09/phrase-006.png",
+          "audio": "/audio/phrases/lesson-09/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-09/phrase-007.png",
+          "audio": "/audio/phrases/lesson-09/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-09/phrase-008.png",
+          "audio": "/audio/phrases/lesson-09/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-09/phrase-009.png",
+          "audio": "/audio/phrases/lesson-09/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-09/phrase-010.png",
+          "audio": "/audio/phrases/lesson-09/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-09/phrase-011.png",
+          "audio": "/audio/phrases/lesson-09/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-09/phrase-012.png",
+          "audio": "/audio/phrases/lesson-09/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-09/phrase-013.png",
+          "audio": "/audio/phrases/lesson-09/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-09/phrase-014.png",
+          "audio": "/audio/phrases/lesson-09/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-09/phrase-015.png",
+          "audio": "/audio/phrases/lesson-09/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-09/phrase-016.png",
+          "audio": "/audio/phrases/lesson-09/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-09/phrase-017.png",
+          "audio": "/audio/phrases/lesson-09/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-09/phrase-018.png",
+          "audio": "/audio/phrases/lesson-09/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-09/phrase-019.png",
+          "audio": "/audio/phrases/lesson-09/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-09/phrase-020.png",
+          "audio": "/audio/phrases/lesson-09/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-09/phrase-021.png",
+          "audio": "/audio/phrases/lesson-09/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-09/phrase-022.png",
+          "audio": "/audio/phrases/lesson-09/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-09/phrase-023.png",
+          "audio": "/audio/phrases/lesson-09/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-09/phrase-024.png",
+          "audio": "/audio/phrases/lesson-09/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-09/phrase-025.png",
+          "audio": "/audio/phrases/lesson-09/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-09/phrase-026.png",
+          "audio": "/audio/phrases/lesson-09/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-09/phrase-027.png",
+          "audio": "/audio/phrases/lesson-09/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-09/phrase-028.png",
+          "audio": "/audio/phrases/lesson-09/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-10",
+      "number": 10,
+      "title": "Lesson 10",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-10/phrase-001.png",
+          "audio": "/audio/phrases/lesson-10/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-10/phrase-002.png",
+          "audio": "/audio/phrases/lesson-10/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-10/phrase-003.png",
+          "audio": "/audio/phrases/lesson-10/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-10/phrase-004.png",
+          "audio": "/audio/phrases/lesson-10/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-10/phrase-005.png",
+          "audio": "/audio/phrases/lesson-10/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-10/phrase-006.png",
+          "audio": "/audio/phrases/lesson-10/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-10/phrase-007.png",
+          "audio": "/audio/phrases/lesson-10/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-10/phrase-008.png",
+          "audio": "/audio/phrases/lesson-10/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-10/phrase-009.png",
+          "audio": "/audio/phrases/lesson-10/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-10/phrase-010.png",
+          "audio": "/audio/phrases/lesson-10/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-10/phrase-011.png",
+          "audio": "/audio/phrases/lesson-10/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-10/phrase-012.png",
+          "audio": "/audio/phrases/lesson-10/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-10/phrase-013.png",
+          "audio": "/audio/phrases/lesson-10/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-10/phrase-014.png",
+          "audio": "/audio/phrases/lesson-10/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-10/phrase-015.png",
+          "audio": "/audio/phrases/lesson-10/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-10/phrase-016.png",
+          "audio": "/audio/phrases/lesson-10/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-10/phrase-017.png",
+          "audio": "/audio/phrases/lesson-10/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-10/phrase-018.png",
+          "audio": "/audio/phrases/lesson-10/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-10/phrase-019.png",
+          "audio": "/audio/phrases/lesson-10/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-10/phrase-020.png",
+          "audio": "/audio/phrases/lesson-10/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-10/phrase-021.png",
+          "audio": "/audio/phrases/lesson-10/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-10/phrase-022.png",
+          "audio": "/audio/phrases/lesson-10/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-10/phrase-023.png",
+          "audio": "/audio/phrases/lesson-10/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-10/phrase-024.png",
+          "audio": "/audio/phrases/lesson-10/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-10/phrase-025.png",
+          "audio": "/audio/phrases/lesson-10/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-10/phrase-026.png",
+          "audio": "/audio/phrases/lesson-10/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-10/phrase-027.png",
+          "audio": "/audio/phrases/lesson-10/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-10/phrase-028.png",
+          "audio": "/audio/phrases/lesson-10/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-11",
+      "number": 11,
+      "title": "Lesson 11",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-11/phrase-001.png",
+          "audio": "/audio/phrases/lesson-11/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-11/phrase-002.png",
+          "audio": "/audio/phrases/lesson-11/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-11/phrase-003.png",
+          "audio": "/audio/phrases/lesson-11/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-11/phrase-004.png",
+          "audio": "/audio/phrases/lesson-11/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-11/phrase-005.png",
+          "audio": "/audio/phrases/lesson-11/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-11/phrase-006.png",
+          "audio": "/audio/phrases/lesson-11/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-11/phrase-007.png",
+          "audio": "/audio/phrases/lesson-11/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-11/phrase-008.png",
+          "audio": "/audio/phrases/lesson-11/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-11/phrase-009.png",
+          "audio": "/audio/phrases/lesson-11/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-11/phrase-010.png",
+          "audio": "/audio/phrases/lesson-11/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-11/phrase-011.png",
+          "audio": "/audio/phrases/lesson-11/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-11/phrase-012.png",
+          "audio": "/audio/phrases/lesson-11/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-11/phrase-013.png",
+          "audio": "/audio/phrases/lesson-11/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-11/phrase-014.png",
+          "audio": "/audio/phrases/lesson-11/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-11/phrase-015.png",
+          "audio": "/audio/phrases/lesson-11/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-11/phrase-016.png",
+          "audio": "/audio/phrases/lesson-11/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-11/phrase-017.png",
+          "audio": "/audio/phrases/lesson-11/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-11/phrase-018.png",
+          "audio": "/audio/phrases/lesson-11/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-11/phrase-019.png",
+          "audio": "/audio/phrases/lesson-11/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-11/phrase-020.png",
+          "audio": "/audio/phrases/lesson-11/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-11/phrase-021.png",
+          "audio": "/audio/phrases/lesson-11/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-11/phrase-022.png",
+          "audio": "/audio/phrases/lesson-11/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-11/phrase-023.png",
+          "audio": "/audio/phrases/lesson-11/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-11/phrase-024.png",
+          "audio": "/audio/phrases/lesson-11/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-11/phrase-025.png",
+          "audio": "/audio/phrases/lesson-11/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-11/phrase-026.png",
+          "audio": "/audio/phrases/lesson-11/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-11/phrase-027.png",
+          "audio": "/audio/phrases/lesson-11/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-11/phrase-028.png",
+          "audio": "/audio/phrases/lesson-11/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-12",
+      "number": 12,
+      "title": "Lesson 12",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-12/phrase-001.png",
+          "audio": "/audio/phrases/lesson-12/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-12/phrase-002.png",
+          "audio": "/audio/phrases/lesson-12/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-12/phrase-003.png",
+          "audio": "/audio/phrases/lesson-12/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-12/phrase-004.png",
+          "audio": "/audio/phrases/lesson-12/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-12/phrase-005.png",
+          "audio": "/audio/phrases/lesson-12/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-12/phrase-006.png",
+          "audio": "/audio/phrases/lesson-12/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-12/phrase-007.png",
+          "audio": "/audio/phrases/lesson-12/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-12/phrase-008.png",
+          "audio": "/audio/phrases/lesson-12/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-12/phrase-009.png",
+          "audio": "/audio/phrases/lesson-12/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-12/phrase-010.png",
+          "audio": "/audio/phrases/lesson-12/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-12/phrase-011.png",
+          "audio": "/audio/phrases/lesson-12/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-12/phrase-012.png",
+          "audio": "/audio/phrases/lesson-12/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-12/phrase-013.png",
+          "audio": "/audio/phrases/lesson-12/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-12/phrase-014.png",
+          "audio": "/audio/phrases/lesson-12/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-12/phrase-015.png",
+          "audio": "/audio/phrases/lesson-12/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-12/phrase-016.png",
+          "audio": "/audio/phrases/lesson-12/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-12/phrase-017.png",
+          "audio": "/audio/phrases/lesson-12/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-12/phrase-018.png",
+          "audio": "/audio/phrases/lesson-12/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-12/phrase-019.png",
+          "audio": "/audio/phrases/lesson-12/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-12/phrase-020.png",
+          "audio": "/audio/phrases/lesson-12/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-12/phrase-021.png",
+          "audio": "/audio/phrases/lesson-12/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-12/phrase-022.png",
+          "audio": "/audio/phrases/lesson-12/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-12/phrase-023.png",
+          "audio": "/audio/phrases/lesson-12/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-12/phrase-024.png",
+          "audio": "/audio/phrases/lesson-12/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-12/phrase-025.png",
+          "audio": "/audio/phrases/lesson-12/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-12/phrase-026.png",
+          "audio": "/audio/phrases/lesson-12/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-12/phrase-027.png",
+          "audio": "/audio/phrases/lesson-12/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-12/phrase-028.png",
+          "audio": "/audio/phrases/lesson-12/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-13",
+      "number": 13,
+      "title": "Lesson 13",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-13/phrase-001.png",
+          "audio": "/audio/phrases/lesson-13/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-13/phrase-002.png",
+          "audio": "/audio/phrases/lesson-13/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-13/phrase-003.png",
+          "audio": "/audio/phrases/lesson-13/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-13/phrase-004.png",
+          "audio": "/audio/phrases/lesson-13/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-13/phrase-005.png",
+          "audio": "/audio/phrases/lesson-13/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-13/phrase-006.png",
+          "audio": "/audio/phrases/lesson-13/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-13/phrase-007.png",
+          "audio": "/audio/phrases/lesson-13/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-13/phrase-008.png",
+          "audio": "/audio/phrases/lesson-13/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-13/phrase-009.png",
+          "audio": "/audio/phrases/lesson-13/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-13/phrase-010.png",
+          "audio": "/audio/phrases/lesson-13/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-13/phrase-011.png",
+          "audio": "/audio/phrases/lesson-13/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-13/phrase-012.png",
+          "audio": "/audio/phrases/lesson-13/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-13/phrase-013.png",
+          "audio": "/audio/phrases/lesson-13/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-13/phrase-014.png",
+          "audio": "/audio/phrases/lesson-13/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-13/phrase-015.png",
+          "audio": "/audio/phrases/lesson-13/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-13/phrase-016.png",
+          "audio": "/audio/phrases/lesson-13/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-13/phrase-017.png",
+          "audio": "/audio/phrases/lesson-13/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-13/phrase-018.png",
+          "audio": "/audio/phrases/lesson-13/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-13/phrase-019.png",
+          "audio": "/audio/phrases/lesson-13/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-13/phrase-020.png",
+          "audio": "/audio/phrases/lesson-13/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-13/phrase-021.png",
+          "audio": "/audio/phrases/lesson-13/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-13/phrase-022.png",
+          "audio": "/audio/phrases/lesson-13/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-13/phrase-023.png",
+          "audio": "/audio/phrases/lesson-13/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-13/phrase-024.png",
+          "audio": "/audio/phrases/lesson-13/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-13/phrase-025.png",
+          "audio": "/audio/phrases/lesson-13/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-13/phrase-026.png",
+          "audio": "/audio/phrases/lesson-13/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-13/phrase-027.png",
+          "audio": "/audio/phrases/lesson-13/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-13/phrase-028.png",
+          "audio": "/audio/phrases/lesson-13/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-14",
+      "number": 14,
+      "title": "Lesson 14",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-14/phrase-001.png",
+          "audio": "/audio/phrases/lesson-14/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-14/phrase-002.png",
+          "audio": "/audio/phrases/lesson-14/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-14/phrase-003.png",
+          "audio": "/audio/phrases/lesson-14/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-14/phrase-004.png",
+          "audio": "/audio/phrases/lesson-14/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-14/phrase-005.png",
+          "audio": "/audio/phrases/lesson-14/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-14/phrase-006.png",
+          "audio": "/audio/phrases/lesson-14/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-14/phrase-007.png",
+          "audio": "/audio/phrases/lesson-14/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-14/phrase-008.png",
+          "audio": "/audio/phrases/lesson-14/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-14/phrase-009.png",
+          "audio": "/audio/phrases/lesson-14/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-14/phrase-010.png",
+          "audio": "/audio/phrases/lesson-14/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-14/phrase-011.png",
+          "audio": "/audio/phrases/lesson-14/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-14/phrase-012.png",
+          "audio": "/audio/phrases/lesson-14/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-14/phrase-013.png",
+          "audio": "/audio/phrases/lesson-14/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-14/phrase-014.png",
+          "audio": "/audio/phrases/lesson-14/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-14/phrase-015.png",
+          "audio": "/audio/phrases/lesson-14/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-14/phrase-016.png",
+          "audio": "/audio/phrases/lesson-14/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-14/phrase-017.png",
+          "audio": "/audio/phrases/lesson-14/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-14/phrase-018.png",
+          "audio": "/audio/phrases/lesson-14/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-14/phrase-019.png",
+          "audio": "/audio/phrases/lesson-14/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-14/phrase-020.png",
+          "audio": "/audio/phrases/lesson-14/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-14/phrase-021.png",
+          "audio": "/audio/phrases/lesson-14/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-14/phrase-022.png",
+          "audio": "/audio/phrases/lesson-14/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-14/phrase-023.png",
+          "audio": "/audio/phrases/lesson-14/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-14/phrase-024.png",
+          "audio": "/audio/phrases/lesson-14/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-14/phrase-025.png",
+          "audio": "/audio/phrases/lesson-14/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-14/phrase-026.png",
+          "audio": "/audio/phrases/lesson-14/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-14/phrase-027.png",
+          "audio": "/audio/phrases/lesson-14/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-14/phrase-028.png",
+          "audio": "/audio/phrases/lesson-14/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-15",
+      "number": 15,
+      "title": "Lesson 15",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-15/phrase-001.png",
+          "audio": "/audio/phrases/lesson-15/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-15/phrase-002.png",
+          "audio": "/audio/phrases/lesson-15/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-15/phrase-003.png",
+          "audio": "/audio/phrases/lesson-15/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-15/phrase-004.png",
+          "audio": "/audio/phrases/lesson-15/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-15/phrase-005.png",
+          "audio": "/audio/phrases/lesson-15/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-15/phrase-006.png",
+          "audio": "/audio/phrases/lesson-15/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-15/phrase-007.png",
+          "audio": "/audio/phrases/lesson-15/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-15/phrase-008.png",
+          "audio": "/audio/phrases/lesson-15/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-15/phrase-009.png",
+          "audio": "/audio/phrases/lesson-15/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-15/phrase-010.png",
+          "audio": "/audio/phrases/lesson-15/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-15/phrase-011.png",
+          "audio": "/audio/phrases/lesson-15/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-15/phrase-012.png",
+          "audio": "/audio/phrases/lesson-15/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-15/phrase-013.png",
+          "audio": "/audio/phrases/lesson-15/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-15/phrase-014.png",
+          "audio": "/audio/phrases/lesson-15/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-15/phrase-015.png",
+          "audio": "/audio/phrases/lesson-15/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-15/phrase-016.png",
+          "audio": "/audio/phrases/lesson-15/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-15/phrase-017.png",
+          "audio": "/audio/phrases/lesson-15/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-15/phrase-018.png",
+          "audio": "/audio/phrases/lesson-15/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-15/phrase-019.png",
+          "audio": "/audio/phrases/lesson-15/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-15/phrase-020.png",
+          "audio": "/audio/phrases/lesson-15/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-15/phrase-021.png",
+          "audio": "/audio/phrases/lesson-15/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-15/phrase-022.png",
+          "audio": "/audio/phrases/lesson-15/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-15/phrase-023.png",
+          "audio": "/audio/phrases/lesson-15/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-15/phrase-024.png",
+          "audio": "/audio/phrases/lesson-15/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-15/phrase-025.png",
+          "audio": "/audio/phrases/lesson-15/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-15/phrase-026.png",
+          "audio": "/audio/phrases/lesson-15/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-15/phrase-027.png",
+          "audio": "/audio/phrases/lesson-15/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-15/phrase-028.png",
+          "audio": "/audio/phrases/lesson-15/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-16",
+      "number": 16,
+      "title": "Lesson 16",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-16/phrase-001.png",
+          "audio": "/audio/phrases/lesson-16/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-16/phrase-002.png",
+          "audio": "/audio/phrases/lesson-16/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-16/phrase-003.png",
+          "audio": "/audio/phrases/lesson-16/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-16/phrase-004.png",
+          "audio": "/audio/phrases/lesson-16/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-16/phrase-005.png",
+          "audio": "/audio/phrases/lesson-16/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-16/phrase-006.png",
+          "audio": "/audio/phrases/lesson-16/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-16/phrase-007.png",
+          "audio": "/audio/phrases/lesson-16/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-16/phrase-008.png",
+          "audio": "/audio/phrases/lesson-16/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-16/phrase-009.png",
+          "audio": "/audio/phrases/lesson-16/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-16/phrase-010.png",
+          "audio": "/audio/phrases/lesson-16/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-16/phrase-011.png",
+          "audio": "/audio/phrases/lesson-16/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-16/phrase-012.png",
+          "audio": "/audio/phrases/lesson-16/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-16/phrase-013.png",
+          "audio": "/audio/phrases/lesson-16/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-16/phrase-014.png",
+          "audio": "/audio/phrases/lesson-16/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-16/phrase-015.png",
+          "audio": "/audio/phrases/lesson-16/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-16/phrase-016.png",
+          "audio": "/audio/phrases/lesson-16/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-16/phrase-017.png",
+          "audio": "/audio/phrases/lesson-16/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-16/phrase-018.png",
+          "audio": "/audio/phrases/lesson-16/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-16/phrase-019.png",
+          "audio": "/audio/phrases/lesson-16/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-16/phrase-020.png",
+          "audio": "/audio/phrases/lesson-16/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-16/phrase-021.png",
+          "audio": "/audio/phrases/lesson-16/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-16/phrase-022.png",
+          "audio": "/audio/phrases/lesson-16/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-16/phrase-023.png",
+          "audio": "/audio/phrases/lesson-16/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-16/phrase-024.png",
+          "audio": "/audio/phrases/lesson-16/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-16/phrase-025.png",
+          "audio": "/audio/phrases/lesson-16/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-16/phrase-026.png",
+          "audio": "/audio/phrases/lesson-16/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-16/phrase-027.png",
+          "audio": "/audio/phrases/lesson-16/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-16/phrase-028.png",
+          "audio": "/audio/phrases/lesson-16/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-17",
+      "number": 17,
+      "title": "Lesson 17",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-17/phrase-001.png",
+          "audio": "/audio/phrases/lesson-17/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-17/phrase-002.png",
+          "audio": "/audio/phrases/lesson-17/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-17/phrase-003.png",
+          "audio": "/audio/phrases/lesson-17/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-17/phrase-004.png",
+          "audio": "/audio/phrases/lesson-17/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-17/phrase-005.png",
+          "audio": "/audio/phrases/lesson-17/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-17/phrase-006.png",
+          "audio": "/audio/phrases/lesson-17/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-17/phrase-007.png",
+          "audio": "/audio/phrases/lesson-17/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-17/phrase-008.png",
+          "audio": "/audio/phrases/lesson-17/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-17/phrase-009.png",
+          "audio": "/audio/phrases/lesson-17/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-17/phrase-010.png",
+          "audio": "/audio/phrases/lesson-17/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-17/phrase-011.png",
+          "audio": "/audio/phrases/lesson-17/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-17/phrase-012.png",
+          "audio": "/audio/phrases/lesson-17/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-17/phrase-013.png",
+          "audio": "/audio/phrases/lesson-17/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-17/phrase-014.png",
+          "audio": "/audio/phrases/lesson-17/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-17/phrase-015.png",
+          "audio": "/audio/phrases/lesson-17/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-17/phrase-016.png",
+          "audio": "/audio/phrases/lesson-17/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-17/phrase-017.png",
+          "audio": "/audio/phrases/lesson-17/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-17/phrase-018.png",
+          "audio": "/audio/phrases/lesson-17/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-17/phrase-019.png",
+          "audio": "/audio/phrases/lesson-17/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-17/phrase-020.png",
+          "audio": "/audio/phrases/lesson-17/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-17/phrase-021.png",
+          "audio": "/audio/phrases/lesson-17/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-17/phrase-022.png",
+          "audio": "/audio/phrases/lesson-17/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-17/phrase-023.png",
+          "audio": "/audio/phrases/lesson-17/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-17/phrase-024.png",
+          "audio": "/audio/phrases/lesson-17/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-17/phrase-025.png",
+          "audio": "/audio/phrases/lesson-17/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-17/phrase-026.png",
+          "audio": "/audio/phrases/lesson-17/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-17/phrase-027.png",
+          "audio": "/audio/phrases/lesson-17/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-17/phrase-028.png",
+          "audio": "/audio/phrases/lesson-17/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-18",
+      "number": 18,
+      "title": "Lesson 18",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-18/phrase-001.png",
+          "audio": "/audio/phrases/lesson-18/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-18/phrase-002.png",
+          "audio": "/audio/phrases/lesson-18/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-18/phrase-003.png",
+          "audio": "/audio/phrases/lesson-18/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-18/phrase-004.png",
+          "audio": "/audio/phrases/lesson-18/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-18/phrase-005.png",
+          "audio": "/audio/phrases/lesson-18/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-18/phrase-006.png",
+          "audio": "/audio/phrases/lesson-18/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-18/phrase-007.png",
+          "audio": "/audio/phrases/lesson-18/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-18/phrase-008.png",
+          "audio": "/audio/phrases/lesson-18/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-18/phrase-009.png",
+          "audio": "/audio/phrases/lesson-18/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-18/phrase-010.png",
+          "audio": "/audio/phrases/lesson-18/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-18/phrase-011.png",
+          "audio": "/audio/phrases/lesson-18/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-18/phrase-012.png",
+          "audio": "/audio/phrases/lesson-18/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-18/phrase-013.png",
+          "audio": "/audio/phrases/lesson-18/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-18/phrase-014.png",
+          "audio": "/audio/phrases/lesson-18/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-18/phrase-015.png",
+          "audio": "/audio/phrases/lesson-18/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-18/phrase-016.png",
+          "audio": "/audio/phrases/lesson-18/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-18/phrase-017.png",
+          "audio": "/audio/phrases/lesson-18/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-18/phrase-018.png",
+          "audio": "/audio/phrases/lesson-18/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-18/phrase-019.png",
+          "audio": "/audio/phrases/lesson-18/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-18/phrase-020.png",
+          "audio": "/audio/phrases/lesson-18/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-18/phrase-021.png",
+          "audio": "/audio/phrases/lesson-18/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-18/phrase-022.png",
+          "audio": "/audio/phrases/lesson-18/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-18/phrase-023.png",
+          "audio": "/audio/phrases/lesson-18/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-18/phrase-024.png",
+          "audio": "/audio/phrases/lesson-18/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-18/phrase-025.png",
+          "audio": "/audio/phrases/lesson-18/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-18/phrase-026.png",
+          "audio": "/audio/phrases/lesson-18/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-18/phrase-027.png",
+          "audio": "/audio/phrases/lesson-18/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-18/phrase-028.png",
+          "audio": "/audio/phrases/lesson-18/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-19",
+      "number": 19,
+      "title": "Lesson 19",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-19/phrase-001.png",
+          "audio": "/audio/phrases/lesson-19/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-19/phrase-002.png",
+          "audio": "/audio/phrases/lesson-19/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-19/phrase-003.png",
+          "audio": "/audio/phrases/lesson-19/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-19/phrase-004.png",
+          "audio": "/audio/phrases/lesson-19/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-19/phrase-005.png",
+          "audio": "/audio/phrases/lesson-19/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-19/phrase-006.png",
+          "audio": "/audio/phrases/lesson-19/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-19/phrase-007.png",
+          "audio": "/audio/phrases/lesson-19/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-19/phrase-008.png",
+          "audio": "/audio/phrases/lesson-19/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-19/phrase-009.png",
+          "audio": "/audio/phrases/lesson-19/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-19/phrase-010.png",
+          "audio": "/audio/phrases/lesson-19/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-19/phrase-011.png",
+          "audio": "/audio/phrases/lesson-19/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-19/phrase-012.png",
+          "audio": "/audio/phrases/lesson-19/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-19/phrase-013.png",
+          "audio": "/audio/phrases/lesson-19/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-19/phrase-014.png",
+          "audio": "/audio/phrases/lesson-19/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-19/phrase-015.png",
+          "audio": "/audio/phrases/lesson-19/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-19/phrase-016.png",
+          "audio": "/audio/phrases/lesson-19/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-19/phrase-017.png",
+          "audio": "/audio/phrases/lesson-19/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-19/phrase-018.png",
+          "audio": "/audio/phrases/lesson-19/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-19/phrase-019.png",
+          "audio": "/audio/phrases/lesson-19/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-19/phrase-020.png",
+          "audio": "/audio/phrases/lesson-19/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-19/phrase-021.png",
+          "audio": "/audio/phrases/lesson-19/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-19/phrase-022.png",
+          "audio": "/audio/phrases/lesson-19/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-19/phrase-023.png",
+          "audio": "/audio/phrases/lesson-19/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-19/phrase-024.png",
+          "audio": "/audio/phrases/lesson-19/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-19/phrase-025.png",
+          "audio": "/audio/phrases/lesson-19/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-19/phrase-026.png",
+          "audio": "/audio/phrases/lesson-19/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-19/phrase-027.png",
+          "audio": "/audio/phrases/lesson-19/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-19/phrase-028.png",
+          "audio": "/audio/phrases/lesson-19/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-029",
+          "image": "/images/phrases/lesson-19/phrase-029.png",
+          "audio": "/audio/phrases/lesson-19/phrase-029.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-030",
+          "image": "/images/phrases/lesson-19/phrase-030.png",
+          "audio": "/audio/phrases/lesson-19/phrase-030.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-031",
+          "image": "/images/phrases/lesson-19/phrase-031.png",
+          "audio": "/audio/phrases/lesson-19/phrase-031.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-032",
+          "image": "/images/phrases/lesson-19/phrase-032.png",
+          "audio": "/audio/phrases/lesson-19/phrase-032.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-033",
+          "image": "/images/phrases/lesson-19/phrase-033.png",
+          "audio": "/audio/phrases/lesson-19/phrase-033.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-034",
+          "image": "/images/phrases/lesson-19/phrase-034.png",
+          "audio": "/audio/phrases/lesson-19/phrase-034.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-035",
+          "image": "/images/phrases/lesson-19/phrase-035.png",
+          "audio": "/audio/phrases/lesson-19/phrase-035.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-20",
+      "number": 20,
+      "title": "Lesson 20",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-20/phrase-001.png",
+          "audio": "/audio/phrases/lesson-20/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-20/phrase-002.png",
+          "audio": "/audio/phrases/lesson-20/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-20/phrase-003.png",
+          "audio": "/audio/phrases/lesson-20/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-20/phrase-004.png",
+          "audio": "/audio/phrases/lesson-20/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-20/phrase-005.png",
+          "audio": "/audio/phrases/lesson-20/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-20/phrase-006.png",
+          "audio": "/audio/phrases/lesson-20/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-20/phrase-007.png",
+          "audio": "/audio/phrases/lesson-20/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-20/phrase-008.png",
+          "audio": "/audio/phrases/lesson-20/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-20/phrase-009.png",
+          "audio": "/audio/phrases/lesson-20/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-20/phrase-010.png",
+          "audio": "/audio/phrases/lesson-20/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-20/phrase-011.png",
+          "audio": "/audio/phrases/lesson-20/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-20/phrase-012.png",
+          "audio": "/audio/phrases/lesson-20/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-20/phrase-013.png",
+          "audio": "/audio/phrases/lesson-20/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-20/phrase-014.png",
+          "audio": "/audio/phrases/lesson-20/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-20/phrase-015.png",
+          "audio": "/audio/phrases/lesson-20/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-20/phrase-016.png",
+          "audio": "/audio/phrases/lesson-20/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-20/phrase-017.png",
+          "audio": "/audio/phrases/lesson-20/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-20/phrase-018.png",
+          "audio": "/audio/phrases/lesson-20/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-20/phrase-019.png",
+          "audio": "/audio/phrases/lesson-20/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-20/phrase-020.png",
+          "audio": "/audio/phrases/lesson-20/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-20/phrase-021.png",
+          "audio": "/audio/phrases/lesson-20/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-20/phrase-022.png",
+          "audio": "/audio/phrases/lesson-20/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-20/phrase-023.png",
+          "audio": "/audio/phrases/lesson-20/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-20/phrase-024.png",
+          "audio": "/audio/phrases/lesson-20/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-20/phrase-025.png",
+          "audio": "/audio/phrases/lesson-20/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-20/phrase-026.png",
+          "audio": "/audio/phrases/lesson-20/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-20/phrase-027.png",
+          "audio": "/audio/phrases/lesson-20/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-20/phrase-028.png",
+          "audio": "/audio/phrases/lesson-20/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-21",
+      "number": 21,
+      "title": "Lesson 21",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-21/phrase-001.png",
+          "audio": "/audio/phrases/lesson-21/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-21/phrase-002.png",
+          "audio": "/audio/phrases/lesson-21/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-21/phrase-003.png",
+          "audio": "/audio/phrases/lesson-21/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-21/phrase-004.png",
+          "audio": "/audio/phrases/lesson-21/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-21/phrase-005.png",
+          "audio": "/audio/phrases/lesson-21/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-21/phrase-006.png",
+          "audio": "/audio/phrases/lesson-21/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-21/phrase-007.png",
+          "audio": "/audio/phrases/lesson-21/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-21/phrase-008.png",
+          "audio": "/audio/phrases/lesson-21/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-21/phrase-009.png",
+          "audio": "/audio/phrases/lesson-21/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-21/phrase-010.png",
+          "audio": "/audio/phrases/lesson-21/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-21/phrase-011.png",
+          "audio": "/audio/phrases/lesson-21/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-21/phrase-012.png",
+          "audio": "/audio/phrases/lesson-21/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-21/phrase-013.png",
+          "audio": "/audio/phrases/lesson-21/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-21/phrase-014.png",
+          "audio": "/audio/phrases/lesson-21/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-21/phrase-015.png",
+          "audio": "/audio/phrases/lesson-21/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-21/phrase-016.png",
+          "audio": "/audio/phrases/lesson-21/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-21/phrase-017.png",
+          "audio": "/audio/phrases/lesson-21/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-21/phrase-018.png",
+          "audio": "/audio/phrases/lesson-21/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-21/phrase-019.png",
+          "audio": "/audio/phrases/lesson-21/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-21/phrase-020.png",
+          "audio": "/audio/phrases/lesson-21/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-21/phrase-021.png",
+          "audio": "/audio/phrases/lesson-21/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-21/phrase-022.png",
+          "audio": "/audio/phrases/lesson-21/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-21/phrase-023.png",
+          "audio": "/audio/phrases/lesson-21/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-21/phrase-024.png",
+          "audio": "/audio/phrases/lesson-21/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-21/phrase-025.png",
+          "audio": "/audio/phrases/lesson-21/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-21/phrase-026.png",
+          "audio": "/audio/phrases/lesson-21/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-21/phrase-027.png",
+          "audio": "/audio/phrases/lesson-21/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-21/phrase-028.png",
+          "audio": "/audio/phrases/lesson-21/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-22",
+      "number": 22,
+      "title": "Lesson 22",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-22/phrase-001.png",
+          "audio": "/audio/phrases/lesson-22/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-22/phrase-002.png",
+          "audio": "/audio/phrases/lesson-22/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-22/phrase-003.png",
+          "audio": "/audio/phrases/lesson-22/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-22/phrase-004.png",
+          "audio": "/audio/phrases/lesson-22/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-22/phrase-005.png",
+          "audio": "/audio/phrases/lesson-22/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-22/phrase-006.png",
+          "audio": "/audio/phrases/lesson-22/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-22/phrase-007.png",
+          "audio": "/audio/phrases/lesson-22/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-22/phrase-008.png",
+          "audio": "/audio/phrases/lesson-22/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-22/phrase-009.png",
+          "audio": "/audio/phrases/lesson-22/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-22/phrase-010.png",
+          "audio": "/audio/phrases/lesson-22/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-22/phrase-011.png",
+          "audio": "/audio/phrases/lesson-22/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-22/phrase-012.png",
+          "audio": "/audio/phrases/lesson-22/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-22/phrase-013.png",
+          "audio": "/audio/phrases/lesson-22/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-22/phrase-014.png",
+          "audio": "/audio/phrases/lesson-22/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-22/phrase-015.png",
+          "audio": "/audio/phrases/lesson-22/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-22/phrase-016.png",
+          "audio": "/audio/phrases/lesson-22/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-22/phrase-017.png",
+          "audio": "/audio/phrases/lesson-22/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-22/phrase-018.png",
+          "audio": "/audio/phrases/lesson-22/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-22/phrase-019.png",
+          "audio": "/audio/phrases/lesson-22/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-22/phrase-020.png",
+          "audio": "/audio/phrases/lesson-22/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-22/phrase-021.png",
+          "audio": "/audio/phrases/lesson-22/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-22/phrase-022.png",
+          "audio": "/audio/phrases/lesson-22/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-22/phrase-023.png",
+          "audio": "/audio/phrases/lesson-22/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-22/phrase-024.png",
+          "audio": "/audio/phrases/lesson-22/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-22/phrase-025.png",
+          "audio": "/audio/phrases/lesson-22/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-22/phrase-026.png",
+          "audio": "/audio/phrases/lesson-22/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-22/phrase-027.png",
+          "audio": "/audio/phrases/lesson-22/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-22/phrase-028.png",
+          "audio": "/audio/phrases/lesson-22/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-23",
+      "number": 23,
+      "title": "Lesson 23",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-23/phrase-001.png",
+          "audio": "/audio/phrases/lesson-23/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-23/phrase-002.png",
+          "audio": "/audio/phrases/lesson-23/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-23/phrase-003.png",
+          "audio": "/audio/phrases/lesson-23/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-23/phrase-004.png",
+          "audio": "/audio/phrases/lesson-23/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-23/phrase-005.png",
+          "audio": "/audio/phrases/lesson-23/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-23/phrase-006.png",
+          "audio": "/audio/phrases/lesson-23/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-23/phrase-007.png",
+          "audio": "/audio/phrases/lesson-23/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-23/phrase-008.png",
+          "audio": "/audio/phrases/lesson-23/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-23/phrase-009.png",
+          "audio": "/audio/phrases/lesson-23/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-23/phrase-010.png",
+          "audio": "/audio/phrases/lesson-23/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-23/phrase-011.png",
+          "audio": "/audio/phrases/lesson-23/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-23/phrase-012.png",
+          "audio": "/audio/phrases/lesson-23/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-23/phrase-013.png",
+          "audio": "/audio/phrases/lesson-23/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-23/phrase-014.png",
+          "audio": "/audio/phrases/lesson-23/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-23/phrase-015.png",
+          "audio": "/audio/phrases/lesson-23/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-23/phrase-016.png",
+          "audio": "/audio/phrases/lesson-23/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-23/phrase-017.png",
+          "audio": "/audio/phrases/lesson-23/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-23/phrase-018.png",
+          "audio": "/audio/phrases/lesson-23/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-23/phrase-019.png",
+          "audio": "/audio/phrases/lesson-23/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-23/phrase-020.png",
+          "audio": "/audio/phrases/lesson-23/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-23/phrase-021.png",
+          "audio": "/audio/phrases/lesson-23/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-23/phrase-022.png",
+          "audio": "/audio/phrases/lesson-23/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-23/phrase-023.png",
+          "audio": "/audio/phrases/lesson-23/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-23/phrase-024.png",
+          "audio": "/audio/phrases/lesson-23/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-23/phrase-025.png",
+          "audio": "/audio/phrases/lesson-23/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-23/phrase-026.png",
+          "audio": "/audio/phrases/lesson-23/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-23/phrase-027.png",
+          "audio": "/audio/phrases/lesson-23/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-23/phrase-028.png",
+          "audio": "/audio/phrases/lesson-23/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-24",
+      "number": 24,
+      "title": "Lesson 24",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-24/phrase-001.png",
+          "audio": "/audio/phrases/lesson-24/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-24/phrase-002.png",
+          "audio": "/audio/phrases/lesson-24/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-24/phrase-003.png",
+          "audio": "/audio/phrases/lesson-24/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-24/phrase-004.png",
+          "audio": "/audio/phrases/lesson-24/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-24/phrase-005.png",
+          "audio": "/audio/phrases/lesson-24/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-24/phrase-006.png",
+          "audio": "/audio/phrases/lesson-24/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-24/phrase-007.png",
+          "audio": "/audio/phrases/lesson-24/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-24/phrase-008.png",
+          "audio": "/audio/phrases/lesson-24/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-24/phrase-009.png",
+          "audio": "/audio/phrases/lesson-24/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-24/phrase-010.png",
+          "audio": "/audio/phrases/lesson-24/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-24/phrase-011.png",
+          "audio": "/audio/phrases/lesson-24/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-24/phrase-012.png",
+          "audio": "/audio/phrases/lesson-24/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-24/phrase-013.png",
+          "audio": "/audio/phrases/lesson-24/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-24/phrase-014.png",
+          "audio": "/audio/phrases/lesson-24/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-24/phrase-015.png",
+          "audio": "/audio/phrases/lesson-24/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-24/phrase-016.png",
+          "audio": "/audio/phrases/lesson-24/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-24/phrase-017.png",
+          "audio": "/audio/phrases/lesson-24/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-24/phrase-018.png",
+          "audio": "/audio/phrases/lesson-24/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-24/phrase-019.png",
+          "audio": "/audio/phrases/lesson-24/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-24/phrase-020.png",
+          "audio": "/audio/phrases/lesson-24/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-24/phrase-021.png",
+          "audio": "/audio/phrases/lesson-24/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-24/phrase-022.png",
+          "audio": "/audio/phrases/lesson-24/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-24/phrase-023.png",
+          "audio": "/audio/phrases/lesson-24/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-24/phrase-024.png",
+          "audio": "/audio/phrases/lesson-24/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-24/phrase-025.png",
+          "audio": "/audio/phrases/lesson-24/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-24/phrase-026.png",
+          "audio": "/audio/phrases/lesson-24/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-24/phrase-027.png",
+          "audio": "/audio/phrases/lesson-24/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-24/phrase-028.png",
+          "audio": "/audio/phrases/lesson-24/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-25",
+      "number": 25,
+      "title": "Lesson 25",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-25/phrase-001.png",
+          "audio": "/audio/phrases/lesson-25/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-25/phrase-002.png",
+          "audio": "/audio/phrases/lesson-25/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-25/phrase-003.png",
+          "audio": "/audio/phrases/lesson-25/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-25/phrase-004.png",
+          "audio": "/audio/phrases/lesson-25/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-25/phrase-005.png",
+          "audio": "/audio/phrases/lesson-25/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-25/phrase-006.png",
+          "audio": "/audio/phrases/lesson-25/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-25/phrase-007.png",
+          "audio": "/audio/phrases/lesson-25/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-25/phrase-008.png",
+          "audio": "/audio/phrases/lesson-25/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-25/phrase-009.png",
+          "audio": "/audio/phrases/lesson-25/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-25/phrase-010.png",
+          "audio": "/audio/phrases/lesson-25/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-25/phrase-011.png",
+          "audio": "/audio/phrases/lesson-25/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-25/phrase-012.png",
+          "audio": "/audio/phrases/lesson-25/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-25/phrase-013.png",
+          "audio": "/audio/phrases/lesson-25/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-25/phrase-014.png",
+          "audio": "/audio/phrases/lesson-25/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-25/phrase-015.png",
+          "audio": "/audio/phrases/lesson-25/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-25/phrase-016.png",
+          "audio": "/audio/phrases/lesson-25/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-25/phrase-017.png",
+          "audio": "/audio/phrases/lesson-25/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-25/phrase-018.png",
+          "audio": "/audio/phrases/lesson-25/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-25/phrase-019.png",
+          "audio": "/audio/phrases/lesson-25/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-25/phrase-020.png",
+          "audio": "/audio/phrases/lesson-25/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-25/phrase-021.png",
+          "audio": "/audio/phrases/lesson-25/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-25/phrase-022.png",
+          "audio": "/audio/phrases/lesson-25/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-25/phrase-023.png",
+          "audio": "/audio/phrases/lesson-25/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-25/phrase-024.png",
+          "audio": "/audio/phrases/lesson-25/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-25/phrase-025.png",
+          "audio": "/audio/phrases/lesson-25/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-25/phrase-026.png",
+          "audio": "/audio/phrases/lesson-25/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-25/phrase-027.png",
+          "audio": "/audio/phrases/lesson-25/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-25/phrase-028.png",
+          "audio": "/audio/phrases/lesson-25/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-26",
+      "number": 26,
+      "title": "Lesson 26",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-26/phrase-001.png",
+          "audio": "/audio/phrases/lesson-26/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-26/phrase-002.png",
+          "audio": "/audio/phrases/lesson-26/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-26/phrase-003.png",
+          "audio": "/audio/phrases/lesson-26/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-26/phrase-004.png",
+          "audio": "/audio/phrases/lesson-26/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-26/phrase-005.png",
+          "audio": "/audio/phrases/lesson-26/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-26/phrase-006.png",
+          "audio": "/audio/phrases/lesson-26/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-26/phrase-007.png",
+          "audio": "/audio/phrases/lesson-26/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-26/phrase-008.png",
+          "audio": "/audio/phrases/lesson-26/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-26/phrase-009.png",
+          "audio": "/audio/phrases/lesson-26/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-26/phrase-010.png",
+          "audio": "/audio/phrases/lesson-26/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-26/phrase-011.png",
+          "audio": "/audio/phrases/lesson-26/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-26/phrase-012.png",
+          "audio": "/audio/phrases/lesson-26/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-26/phrase-013.png",
+          "audio": "/audio/phrases/lesson-26/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-26/phrase-014.png",
+          "audio": "/audio/phrases/lesson-26/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-26/phrase-015.png",
+          "audio": "/audio/phrases/lesson-26/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-26/phrase-016.png",
+          "audio": "/audio/phrases/lesson-26/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-26/phrase-017.png",
+          "audio": "/audio/phrases/lesson-26/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-26/phrase-018.png",
+          "audio": "/audio/phrases/lesson-26/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-26/phrase-019.png",
+          "audio": "/audio/phrases/lesson-26/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-26/phrase-020.png",
+          "audio": "/audio/phrases/lesson-26/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-26/phrase-021.png",
+          "audio": "/audio/phrases/lesson-26/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-26/phrase-022.png",
+          "audio": "/audio/phrases/lesson-26/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-26/phrase-023.png",
+          "audio": "/audio/phrases/lesson-26/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-26/phrase-024.png",
+          "audio": "/audio/phrases/lesson-26/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-26/phrase-025.png",
+          "audio": "/audio/phrases/lesson-26/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-26/phrase-026.png",
+          "audio": "/audio/phrases/lesson-26/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-26/phrase-027.png",
+          "audio": "/audio/phrases/lesson-26/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-26/phrase-028.png",
+          "audio": "/audio/phrases/lesson-26/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-27",
+      "number": 27,
+      "title": "Lesson 27",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-27/phrase-001.png",
+          "audio": "/audio/phrases/lesson-27/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-27/phrase-002.png",
+          "audio": "/audio/phrases/lesson-27/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-27/phrase-003.png",
+          "audio": "/audio/phrases/lesson-27/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-27/phrase-004.png",
+          "audio": "/audio/phrases/lesson-27/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-27/phrase-005.png",
+          "audio": "/audio/phrases/lesson-27/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-27/phrase-006.png",
+          "audio": "/audio/phrases/lesson-27/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-27/phrase-007.png",
+          "audio": "/audio/phrases/lesson-27/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-27/phrase-008.png",
+          "audio": "/audio/phrases/lesson-27/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-27/phrase-009.png",
+          "audio": "/audio/phrases/lesson-27/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-27/phrase-010.png",
+          "audio": "/audio/phrases/lesson-27/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-27/phrase-011.png",
+          "audio": "/audio/phrases/lesson-27/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-27/phrase-012.png",
+          "audio": "/audio/phrases/lesson-27/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-27/phrase-013.png",
+          "audio": "/audio/phrases/lesson-27/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-27/phrase-014.png",
+          "audio": "/audio/phrases/lesson-27/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-27/phrase-015.png",
+          "audio": "/audio/phrases/lesson-27/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-27/phrase-016.png",
+          "audio": "/audio/phrases/lesson-27/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-27/phrase-017.png",
+          "audio": "/audio/phrases/lesson-27/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-27/phrase-018.png",
+          "audio": "/audio/phrases/lesson-27/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-27/phrase-019.png",
+          "audio": "/audio/phrases/lesson-27/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-27/phrase-020.png",
+          "audio": "/audio/phrases/lesson-27/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-27/phrase-021.png",
+          "audio": "/audio/phrases/lesson-27/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-27/phrase-022.png",
+          "audio": "/audio/phrases/lesson-27/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-27/phrase-023.png",
+          "audio": "/audio/phrases/lesson-27/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-27/phrase-024.png",
+          "audio": "/audio/phrases/lesson-27/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-27/phrase-025.png",
+          "audio": "/audio/phrases/lesson-27/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-27/phrase-026.png",
+          "audio": "/audio/phrases/lesson-27/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-27/phrase-027.png",
+          "audio": "/audio/phrases/lesson-27/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-27/phrase-028.png",
+          "audio": "/audio/phrases/lesson-27/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lesson-28",
+      "number": 28,
+      "title": "Lesson 28",
+      "title_ar": "",
+      "description": "",
+      "phrases": [
+        {
+          "id": "phrase-001",
+          "image": "/images/phrases/lesson-28/phrase-001.png",
+          "audio": "/audio/phrases/lesson-28/phrase-001.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-002",
+          "image": "/images/phrases/lesson-28/phrase-002.png",
+          "audio": "/audio/phrases/lesson-28/phrase-002.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-003",
+          "image": "/images/phrases/lesson-28/phrase-003.png",
+          "audio": "/audio/phrases/lesson-28/phrase-003.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-004",
+          "image": "/images/phrases/lesson-28/phrase-004.png",
+          "audio": "/audio/phrases/lesson-28/phrase-004.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-005",
+          "image": "/images/phrases/lesson-28/phrase-005.png",
+          "audio": "/audio/phrases/lesson-28/phrase-005.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-006",
+          "image": "/images/phrases/lesson-28/phrase-006.png",
+          "audio": "/audio/phrases/lesson-28/phrase-006.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-007",
+          "image": "/images/phrases/lesson-28/phrase-007.png",
+          "audio": "/audio/phrases/lesson-28/phrase-007.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-008",
+          "image": "/images/phrases/lesson-28/phrase-008.png",
+          "audio": "/audio/phrases/lesson-28/phrase-008.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-009",
+          "image": "/images/phrases/lesson-28/phrase-009.png",
+          "audio": "/audio/phrases/lesson-28/phrase-009.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-010",
+          "image": "/images/phrases/lesson-28/phrase-010.png",
+          "audio": "/audio/phrases/lesson-28/phrase-010.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-011",
+          "image": "/images/phrases/lesson-28/phrase-011.png",
+          "audio": "/audio/phrases/lesson-28/phrase-011.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-012",
+          "image": "/images/phrases/lesson-28/phrase-012.png",
+          "audio": "/audio/phrases/lesson-28/phrase-012.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-013",
+          "image": "/images/phrases/lesson-28/phrase-013.png",
+          "audio": "/audio/phrases/lesson-28/phrase-013.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-014",
+          "image": "/images/phrases/lesson-28/phrase-014.png",
+          "audio": "/audio/phrases/lesson-28/phrase-014.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-015",
+          "image": "/images/phrases/lesson-28/phrase-015.png",
+          "audio": "/audio/phrases/lesson-28/phrase-015.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-016",
+          "image": "/images/phrases/lesson-28/phrase-016.png",
+          "audio": "/audio/phrases/lesson-28/phrase-016.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-017",
+          "image": "/images/phrases/lesson-28/phrase-017.png",
+          "audio": "/audio/phrases/lesson-28/phrase-017.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-018",
+          "image": "/images/phrases/lesson-28/phrase-018.png",
+          "audio": "/audio/phrases/lesson-28/phrase-018.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-019",
+          "image": "/images/phrases/lesson-28/phrase-019.png",
+          "audio": "/audio/phrases/lesson-28/phrase-019.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-020",
+          "image": "/images/phrases/lesson-28/phrase-020.png",
+          "audio": "/audio/phrases/lesson-28/phrase-020.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-021",
+          "image": "/images/phrases/lesson-28/phrase-021.png",
+          "audio": "/audio/phrases/lesson-28/phrase-021.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-022",
+          "image": "/images/phrases/lesson-28/phrase-022.png",
+          "audio": "/audio/phrases/lesson-28/phrase-022.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-023",
+          "image": "/images/phrases/lesson-28/phrase-023.png",
+          "audio": "/audio/phrases/lesson-28/phrase-023.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-024",
+          "image": "/images/phrases/lesson-28/phrase-024.png",
+          "audio": "/audio/phrases/lesson-28/phrase-024.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-025",
+          "image": "/images/phrases/lesson-28/phrase-025.png",
+          "audio": "/audio/phrases/lesson-28/phrase-025.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-026",
+          "image": "/images/phrases/lesson-28/phrase-026.png",
+          "audio": "/audio/phrases/lesson-28/phrase-026.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-027",
+          "image": "/images/phrases/lesson-28/phrase-027.png",
+          "audio": "/audio/phrases/lesson-28/phrase-027.mp3",
+          "transliteration": "",
+          "notes": ""
+        },
+        {
+          "id": "phrase-028",
+          "image": "/images/phrases/lesson-28/phrase-028.png",
+          "audio": "/audio/phrases/lesson-28/phrase-028.mp3",
+          "transliteration": "",
+          "notes": ""
+        }
+      ]
     }
   ]
 }

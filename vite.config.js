@@ -1,14 +1,18 @@
 import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  // Static-asset-heavy app — keep it simple. PWA service worker is registered
-  // manually from src/main.js, not via a plugin, to keep dependencies minimal.
+  plugins: [
+    react(),
+    tailwindcss(),
+  ],
   server: {
     port: 5173,
-    host: true
+    host: true,
   },
   build: {
     target: 'es2020',
-    sourcemap: true
-  }
+    sourcemap: true,
+  },
 });

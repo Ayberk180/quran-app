@@ -1,43 +1,433 @@
-/* Global styles. Mobile-first. */
+@import "tailwindcss";
 
-:root {
-  --color-bg: #ffffff;
-  --color-text: #1a1a1a;
-  --color-accent: #0f5132;
-  --color-muted: #6b7280;
-  --radius: 12px;
-  --space: 1rem;
+/* Expose Mountain Scriptorium design tokens as Tailwind utilities.
+   bg-pine, text-stone, border-fleece, font-arabic, etc. are all usable
+   in JSX className props alongside the component CSS below. */
+@theme {
+  --color-pine:     oklch(34% 0.088 152);
+  --color-fleece:   oklch(95% 0.018 83);
+  --color-fleece-2: oklch(92% 0.022 83);
+  --color-granite:  oklch(15% 0.007 152);
+  --color-stone:    oklch(51% 0.013 254);
+  --color-ridge:    oklch(99% 0.005 152);
+  --color-ridge-2:  oklch(97% 0.007 152);
+
+  --font-ui:     system-ui, -apple-system, sans-serif;
   --font-arabic: 'Amiri Quran', 'Scheherazade New', serif;
 }
 
-* {
-  box-sizing: border-box;
+/* Mountain Scriptorium — visual system for Masjid Quran Learning
+ *
+ * Caucasus-inspired: Karachay felt geometry. Dagestani manuscript tradition.
+ * Two-space concept:
+ *   — Home (Snow Ridge): cool, architectural, a corridor.
+ *   — Lesson (Unspun Fleece): warm, document-like, the room where learning happens.
+ *
+ * Core rules:
+ *   — Mountainside Pine (--pine) appears ONLY on interactive affordances.
+ *   — No box-shadow anywhere. Depth = border-shift.
+ *   — Two typefaces only: system-ui scaffolds; Amiri Quran carries Arabic content.
+ *   — The phrase tile grid IS the geometric pattern. No additional decoration.
+ */
+
+/* ── Design tokens ───────────────────────────────────────────────────────── */
+
+:root {
+  /* Palette — Mountain Scriptorium */
+  --pine:    oklch(34% 0.088 152);   /* Mountainside Pine — interactive only */
+  --fleece:  oklch(95% 0.018 83);    /* Unspun Fleece — lesson space surface */
+  --fleece-2: oklch(92% 0.022 83);   /* Unspun Fleece Deep — tile on fleece  */
+  --granite: oklch(15% 0.007 152);   /* Granite Night — all text             */
+  --stone:   oklch(51% 0.013 254);   /* River Stone — borders, muted text    */
+  --ridge:   oklch(99% 0.005 152);   /* Snow Ridge — home / tile on fleece   */
+  --ridge-2: oklch(97% 0.007 152);   /* Snow Ridge Deep — card surfaces      */
+
+  /* Typography — two voices, strictly separated */
+  --ui:     system-ui, -apple-system, sans-serif;
+  --arabic: 'Amiri Quran', 'Scheherazade New', serif;
+
+  /* Type scale — 1.25× ratio, fixed rem */
+  --text-xs:   0.8125rem;  /* 13px */
+  --text-sm:   0.875rem;   /* 14px */
+  --text-base: 1rem;       /* 16px */
+  --text-lg:   1.25rem;    /* 20px */
+  --text-xl:   1.5rem;     /* 24px */
+  --text-2xl:  2rem;       /* 32px */
+  --text-3xl:  2.5rem;     /* 40px — lesson number hero */
+
+  /* Spacing */
+  --s1: 0.25rem;
+  --s2: 0.5rem;
+  --s3: 0.75rem;
+  --s4: 1rem;
+  --s5: 1.5rem;
+  --s6: 2rem;
+  --s7: 2.5rem;
+  --s8: 3rem;
+  --s10: 4rem;
+
+  /* Shape */
+  --r:    12px;
+  --r-sm: 6px;
+
+  /* Motion — ease-out-quart */
+  --ease:     cubic-bezier(0.25, 1, 0.5, 1);
+  --dur-fast: 80ms;
+  --dur:      150ms;
 }
 
-html, body {
+/* ── Reset ───────────────────────────────────────────────────────────────── */
+
+*, *::before, *::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background: var(--color-bg);
-  color: var(--color-text);
-  font-family: system-ui, -apple-system, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
 }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* ── Base ─────────────────────────────────────────────────────────────────── */
+
+body {
+  color: var(--granite);
+  font-family: var(--ui);
+  font-size: var(--text-base);
+  line-height: 1.5;
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── App shell — two spaces ──────────────────────────────────────────────── */
 
 #app {
-  min-height: 100vh;
-  padding: var(--space);
   max-width: 720px;
-  margin: 0 auto;
+  margin-inline: auto;
+  min-height: 100dvh;
+  background: var(--ridge);
+  /* Background transitions when moving between home and lesson spaces */
+  transition: background-color 180ms var(--ease);
 }
 
-/* RTL utility — apply to lesson view */
-.rtl {
+/* Lesson view stays on Snow Ridge — the warm Fleece background
+   was removed because the transparent phrase images make it visible
+   through every tile gap, creating a cream cast across the grid. */
+
+/* ── App header — home screen ─────────────────────────────────────────────── */
+
+.app-header {
+  padding: var(--s7) var(--s4) var(--s6);
+}
+
+.app-header__title {
+  font-size: var(--text-2xl);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  color: var(--granite);
+}
+
+/* Narrow Pine rule — the only Pine element visible at rest on the home screen.
+   Like a chapter marker in a manuscript. Precise, deliberate, not decorative. */
+.app-header__accent {
+  display: block;
+  width: 28px;
+  height: 2px;
+  background: var(--pine);
+  border-radius: 1px;
+  margin-top: var(--s3);
+}
+
+.app-header__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--s2);
+  margin-top: var(--s3);
+  font-size: var(--text-sm);
+  color: var(--stone);
+}
+
+.app-header__sep {
+  opacity: 0.45;
+}
+
+/* ── Lesson list ──────────────────────────────────────────────────────────── */
+
+.lesson-list {
+  padding: 0 var(--s4) var(--s10);
+}
+
+.lesson-list__label {
+  display: block;
+  padding: var(--s4) 0;
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--stone);
+  border-top: 1px solid color-mix(in oklch, var(--stone) 30%, var(--ridge));
+  border-bottom: 1px solid color-mix(in oklch, var(--stone) 30%, var(--ridge));
+  margin-bottom: var(--s4);
+}
+
+.lesson-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+  gap: var(--s3);
+}
+
+/* ── Lesson card ──────────────────────────────────────────────────────────── */
+
+/* Cards use Snow Ridge Deep — subtly warmer than the page,
+   a gentle lift without shadows. */
+.lesson-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 148px;
+  padding: var(--s4);
+  border: 1px solid color-mix(in oklch, var(--stone) 45%, var(--ridge));
+  border-radius: var(--r);
+  background: var(--ridge-2);
+  color: var(--granite);
+  text-decoration: none;
+  transition:
+    border-color var(--dur) var(--ease),
+    transform    var(--dur) var(--ease);
+}
+
+.lesson-card:hover,
+.lesson-card:focus-visible {
+  border-color: var(--pine);
+  outline: none;
+}
+
+.lesson-card:active {
+  transform: scale(0.975);
+  transition-duration: var(--dur-fast);
+}
+
+/* The number is the hero: large, heavy, grounded.
+   Each card is a numbered tile in the felt-maker's repeat. */
+.lesson-card__number {
+  font-size: var(--text-3xl);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  color: var(--granite);
+  font-variant-numeric: tabular-nums;
+}
+
+.lesson-card__title {
+  margin-top: var(--s2);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--stone);
+}
+
+/* Arabic title — pushed to bottom, commands the card base */
+.lesson-card__title-ar {
+  margin-top: auto;
+  padding-top: var(--s3);
+  font-family: var(--arabic);
+  font-size: var(--text-lg);
+  line-height: 1.6;
   direction: rtl;
   text-align: right;
+  color: var(--granite);
 }
 
-.arabic {
-  font-family: var(--font-arabic);
-  font-size: 1.5em;
+/* Phrase count — bottom anchor when no Arabic title present */
+.lesson-card__count {
+  font-size: var(--text-xs);
+  color: var(--stone);
+  line-height: 1;
+}
+
+.lesson-card:not(:has(.lesson-card__title-ar)) .lesson-card__count {
+  margin-top: auto;
+  padding-top: var(--s3);
+}
+
+/* ── Lesson view ──────────────────────────────────────────────────────────── */
+
+/* ── Lesson view ──────────────────────────────────────────────────────────── */
+
+.lesson-view {
+  padding: var(--s4) var(--s4) var(--s10);
+}
+
+/* Back link: Pine text, minimal. Feels like retracing a path. */
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s2);
+  padding: var(--s3) 0;
+  margin-bottom: var(--s4);
+  font-size: var(--text-sm);
+  color: var(--pine);
+  text-decoration: none;
+}
+
+.back-link:hover,
+.back-link:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
+.lesson-view__header {
+  padding-bottom: var(--s5);
+  margin-bottom: var(--s5);
+  border-bottom: 1px solid color-mix(in oklch, var(--stone) 25%, var(--fleece));
+}
+
+.lesson-view__number {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--stone);
+  margin-bottom: var(--s3);
+}
+
+.lesson-view__title {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--granite);
+}
+
+/* Arabic lesson title — given full presence on the warm Fleece surface.
+   This is the content; the interface defers to it. */
+.lesson-view__title-ar {
+  margin-top: var(--s4);
+  font-family: var(--arabic);
+  font-size: 2rem;
+  line-height: 1.7;
+  direction: rtl;
+  text-align: right;
+  color: var(--granite);
+}
+
+.lesson-view__description {
+  margin-top: var(--s2);
+  font-size: var(--text-sm);
+  line-height: 1.65;
+  color: var(--stone);
+  max-width: 52ch;
+}
+
+/* ── Phrase grid ──────────────────────────────────────────────────────────── */
+
+/* 4-column grid. The repetition of square tiles IS the geometric pattern.
+   Felt-maker's repeat: structure, not decoration. */
+.phrase-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--s2);
+}
+
+/* ── Phrase tile ──────────────────────────────────────────────────────────── */
+
+/* Phrase tiles: Snow Ridge (near-white) so transparent images show
+   clean black/red ink with no colour cast behind them. */
+.phrase-tile {
+  display: block;
+  padding: 0;
+  border: 1px solid color-mix(in oklch, var(--stone) 45%, var(--ridge));
+  border-radius: var(--r);
+  background: var(--ridge);
+  aspect-ratio: 1 / 1;
+  cursor: pointer;
+  overflow: hidden;
+  transition:
+    border-color var(--dur) var(--ease),
+    transform    var(--dur-fast) var(--ease);
+}
+
+.phrase-tile:hover,
+.phrase-tile:focus-visible {
+  border-color: var(--pine);
+  outline: none;
+}
+
+.phrase-tile:active {
+  transform: scale(0.93);
+  transition-duration: 60ms;
+}
+
+.phrase-tile img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Playing state: set data-playing="true" via JS when audio fires */
+.phrase-tile[data-playing="true"] {
+  border-color: var(--pine);
+  border-width: 2px;
+}
+
+/* ── Empty / error states ────────────────────────────────────────────────── */
+
+.empty-state {
+  padding: var(--s7) var(--s4);
+  text-align: center;
+  font-size: var(--text-sm);
+  color: var(--stone);
+  line-height: 1.7;
+}
+
+.load-error {
+  padding: var(--s6) var(--s4);
+  text-align: center;
+  font-size: var(--text-sm);
+  color: var(--stone);
+}
+
+/* ── Responsive ──────────────────────────────────────────────────────────── */
+
+@media (max-width: 480px) {
+  :root {
+    --text-2xl: 1.75rem;
+    --text-3xl: 2.25rem;
+  }
+
+  .app-header {
+    padding: var(--s6) var(--s4) var(--s5);
+  }
+
+  .lesson-grid {
+    grid-template-columns: repeat(auto-fill, minmax(136px, 1fr));
+    gap: var(--s2);
+  }
+
+  .phrase-grid {
+    gap: var(--s1);
+  }
+}
+
+@media (max-width: 340px) {
+  /* Very small: 3 tiles still meets 44px minimum tap target */
+  .phrase-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ── Reduced motion ──────────────────────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 1ms !important;
+    animation-duration: 1ms !important;
+  }
+
+  #app {
+    transition: none;
+  }
 }

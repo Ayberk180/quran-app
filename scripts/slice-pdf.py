@@ -142,16 +142,54 @@ def compute_cells(
     return cells
 
 
+def remove_background(img: Image.Image) -> Image.Image:
+    """Remove the cream/beige background, leaving ink on a transparent layer.
+
+    Uses Euclidean RGB distance from the known background colour (~243,243,208)
+    so both black ink (lum≈20) and red ink (lum≈80) are fully preserved.
+
+    Thresholds:
+      dist >= 60  → fully opaque (ink centre)
+      dist <= 12  → fully transparent (background)
+      between     → linear alpha interpolation (anti-aliasing edges)
+
+    Output mode: RGBA.
+    """
+    bg_r, bg_g, bg_b = 243, 243, 208
+    dist_opaque, dist_transp = 60, 12
+    span = dist_opaque - dist_transp
+
+    rgb = img.convert("RGB")
+    out = rgb.convert("RGBA")
+    pixels = out.load()
+    w, h = out.size
+    for y in range(h):
+        for x in range(w):
+            r, g, b, a = pixels[x, y]
+            dist = ((r - bg_r) ** 2 + (g - bg_g) ** 2 + (b - bg_b) ** 2) ** 0.5
+            if dist >= dist_opaque:
+                pixels[x, y] = (r, g, b, 255)
+            elif dist <= dist_transp:
+                pixels[x, y] = (r, g, b, 0)
+            else:
+                alpha = round((dist - dist_transp) / span * 255)
+                pixels[x, y] = (r, g, b, alpha)
+    return out
+
+
 def save_crops(
     page_img: Image.Image,
     cells: list[tuple[int, int, int, int, int]],
     out_dir: Path,
     use_webp: bool,
+    remove_bg: bool = False,
 ) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     ext = "webp" if use_webp else "png"
     for phrase_num, x0, y0, x1, y1 in cells:
         crop = page_img.crop((x0, y0, x1, y1))
+        if remove_bg:
+            crop = remove_background(crop)
         out_path = out_dir / f"phrase-{phrase_num:03d}.{ext}"
         if use_webp:
             crop.save(out_path, format="WEBP", quality=90, method=6)
@@ -258,7 +296,7 @@ def process_page(
     )
 
     if not args.preview:
-        save_crops(page_img, cells, out_dir, use_webp=args.webp)
+        save_crops(page_img, cells, out_dir, use_webp=args.webp, remove_bg=args.remove_bg)
         print(f"           crops → {out_dir.relative_to(REPO_ROOT)}")
     else:
         print(f"           crops skipped (--preview)")
@@ -297,6 +335,7 @@ def main() -> int:
     ap.add_argument("--preview", action="store_true", help="skip writing the 35 crops; only render the overlay (implies --debug). Fast iteration.")
     ap.add_argument("--debug", action="store_true", help="also write a numbered overlay PNG to assets-source/debug/")
     ap.add_argument("--webp", action="store_true", help="save .webp at quality 90 instead of .png")
+    ap.add_argument("--remove-bg", action="store_true", help="remove the cream background from each crop, leaving ink on a transparent layer")
     ap.add_argument("--output-root", type=Path, default=DEFAULT_OUTPUT_ROOT)
     args = ap.parse_args()
 
