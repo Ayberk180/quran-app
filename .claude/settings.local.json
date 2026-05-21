@@ -34,7 +34,10 @@
       "Read(//home/ayber/.local/**)",
       "Bash(/mnt/c/Program Files/nodejs/npm.cmd install *)",
       "Bash(cmd.exe *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git config *)",
+      "Bash(git push *)"
     ]
   }
 }
