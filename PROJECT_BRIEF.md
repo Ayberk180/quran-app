@@ -20,20 +20,29 @@ This is a sadaqah jariyah project. Simplicity, reliability, and longevity matter
 
 ## 2. Architecture Decisions
 
-### Storage: static files, no database
-All phrase images and audio clips are static assets bundled with the app. The browser caches them after the first visit. No backend, no database, no server costs. Estimated total payload: **15–40 MB** for a full Qaida-style book (~200–400 phrases).
+### Lesson content: static files
+All phrase images and audio clips are static assets bundled with the app. The browser caches them after the first visit. Estimated total payload: **15–40 MB** for a full Qaida-style book (~200–400 phrases). Lesson playback works fully offline.
+
+### Accounts & progress: Supabase backend (added 2026-05)
+Student accounts, lesson-pass tracking, and login analytics live in a Supabase Postgres database. Row-level security policies enforce per-school isolation. The PWA continues to work offline for lesson playback; only sign-in and progress sync require connectivity.
+
+- **Auth:** Supabase Auth — email/password for instructors and admins; PIN-based custom flow for students (COPPA-friendly, no child emails) via a Supabase Edge Function.
+- **Schema:** four tables (`schools`, `profiles`, `lesson_progress`, `login_events`) plus an `auth_attempts` table for PIN rate limiting and an `instructor_roster` view for the dashboard. See `supabase/migrations/`.
+- **Edge Functions:** `pin-signin` (rate-limited PIN → session exchange) and `add-student` (instructor-only student onboarding).
+- **PII scope:** first name (+ optional last initial), 6-digit PIN, lesson statuses, login timestamps. **Not stored:** email, DOB, IP, photos, raw click events. Parental consent is captured on paper and recorded as a `consent_collected_at` timestamp.
 
 ### Stack
-- **Vite** as the dev server / bundler. Fast, zero-config, well-supported.
-- **Vanilla JavaScript + HTML + CSS.** No framework on day one. Keeps the codebase readable for any future volunteer who knows basic web development. We can migrate to React/Vue later if features warrant it (and Capacitor will work either way for mobile).
-- **Progressive Web App (PWA)** with a service worker for offline support and installability.
-- **localStorage** for tracking per-device progress (lessons completed, stars earned). No login, no accounts.
+- **Vite** for dev server / bundler.
+- **React 19 + Tailwind CSS v4** for the UI (migrated from vanilla JS in v0.2.0).
+- **Progressive Web App (PWA)** with service worker for offline lesson playback and installability.
+- **Supabase** (Postgres + Auth + Edge Functions) for accounts and analytics.
 
 ### Hosting
-Cloudflare Pages, Netlify, or GitHub Pages. All free, all support PWAs, all serve static assets globally with caching.
+- **App:** Cloudflare Pages, Netlify, or GitHub Pages (static, free tiers).
+- **Backend:** Supabase managed free tier — well within limits at the project's 50–200 student scale (under ~2 MB/year of data, the free tier offers 500 MB).
 
 ### Mobile path
-When we want native apps later: wrap the same codebase with **Capacitor**. The PWA already handles 90% of what mobile users need; Capacitor is the bridge to App Store / Play Store distribution if we want it.
+When we want native apps later: wrap the same React codebase with **Capacitor**. The Supabase JS client works inside Capacitor unchanged.
 
 ---
 
@@ -230,10 +239,17 @@ Build in this order. Each phase should produce something runnable.
 
 ## 10. Out of Scope (for now)
 
-- User accounts / cloud-synced progress
-- Teacher dashboard / admin panel
 - Multi-tenant (other masjids using their own books)
-- Quizzes, gamification beyond simple progress stars
+- Quizzes, gamification beyond simple progress markers
 - AI pronunciation grading (microphone input)
+- Per-phrase activity tracking (click counts, time-on-phrase)
+- Real-time collaborative views (instructor watching a student's screen)
+- Mobile push notifications
 
-These are all reasonable future features. They are explicitly *not* part of the v1 build.
+### Recently moved IN scope (implemented 2026-05)
+
+- Student accounts (PIN-based, COPPA-friendly)
+- Cloud-synced lesson-pass tracking (binary passed / not-passed, instructor-managed)
+- Instructor dashboard: student roster + login-frequency analytics over selectable date ranges
+- Parental consent flow (printable bilingual form + `consent_collected_at` audit field)
+- Per-IP rate limiting on PIN sign-in

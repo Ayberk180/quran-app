@@ -37,7 +37,8 @@
       "Bash(git add *)",
       "Bash(git commit *)",
       "Bash(git config *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(grep -E \"\\\\.\\(html|jsx|tsx|css|json\\)$\")"
     ]
   }
 }
