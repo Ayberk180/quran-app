@@ -70,6 +70,12 @@ export default function InstructorView({ profile }) {
           <span lang="tr">Veli izin formu</span>
           {' / Consent form'}
         </a>
+        {profile.role === 3 && (
+          <a href="#/record" className="instructor-view__secondary">
+            <span lang="tr">Ses kaydı</span>
+            {' / Record audio'}
+          </a>
+        )}
       </div>
 
       <section className="roster" aria-label="Students">

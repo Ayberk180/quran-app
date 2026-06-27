@@ -17,6 +17,9 @@ export function parseHash() {
   if (hash === '#/instructor' || hash === '#instructor') {
     return { view: 'instructor' };
   }
+  if (hash === '#/record' || hash === '#record') {
+    return { view: 'record' };
+  }
   if (hash === '#/instructor/print-consent') {
     return { view: 'print-consent' };
   }

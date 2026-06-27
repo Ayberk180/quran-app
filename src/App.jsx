@@ -10,6 +10,7 @@ import LoginView from './components/LoginView.jsx';
 import StudentDashboard from './components/StudentDashboard.jsx';
 import InstructorView from './components/InstructorView.jsx';
 import InstructorStudentDetail from './components/InstructorStudentDetail.jsx';
+import RecordingView from './components/RecordingView.jsx';
 import PrintPinCard from './components/PrintPinCard.jsx';
 import PrintConsentForm from './components/PrintConsentForm.jsx';
 import PrivacyPage from './components/PrivacyPage.jsx';
@@ -20,6 +21,7 @@ const AUTH_ROUTES = new Set([
   'instructor-student',
   'print-pin-card',
   'print-consent',
+  'record',
 ]);
 
 export default function App() {
@@ -97,6 +99,9 @@ export default function App() {
       profile.role < 2
     ) {
       navigate('#/me');
+    } else if (route.view === 'record' && profile.role !== 3) {
+      // Recording tool is admin-only.
+      navigate(profile.role >= 2 ? '#/instructor' : '#/me');
     }
   }, [route, profile]);
 
@@ -147,6 +152,12 @@ export default function App() {
         manifest={manifest}
       />
     );
+  }
+
+  if (route.view === 'record') {
+    if (!authReady || !profile || !manifest) return null;
+    if (profile.role !== 3) return null; // redirect effect will take over
+    return <RecordingView manifest={manifest} profile={profile} />;
   }
 
   if (route.view === 'print-pin-card') {
