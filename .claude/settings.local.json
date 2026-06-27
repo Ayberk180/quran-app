@@ -41,7 +41,8 @@
       "Bash(grep -E \"\\\\.\\(html|jsx|tsx|css|json\\)$\")",
       "Bash(mkvirtualenv --version)",
       "Bash(nvm --version)",
-      "Bash(bash)"
+      "Bash(bash)",
+      "Bash(supabase status *)"
     ]
   }
 }

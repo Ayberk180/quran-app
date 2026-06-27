@@ -19,7 +19,7 @@ export async function fetchStudent(studentId) {
   if (!isConfigured) return null;
   const { data, error } = await supabase
     .from('profiles')
-    .select('id, first_name, last_initial, student_code, school_id, created_at')
+    .select('id, first_name, last_name, last_initial, student_code, school_id, created_at')
     .eq('id', studentId)
     .eq('role', 1)
     .maybeSingle();
@@ -39,6 +39,16 @@ export async function fetchStudentLessonProgress(studentId) {
     return new Map();
   }
   return new Map((data ?? []).map((row) => [row.lesson_id, row]));
+}
+
+/** Update a student's first and last name. */
+export async function updateStudentName(studentId, { first_name, last_name }) {
+  if (!isConfigured) throw new Error('Supabase not configured');
+  const { error } = await supabase
+    .from('profiles')
+    .update({ first_name, last_name: last_name || null })
+    .eq('id', studentId);
+  if (error) throw error;
 }
 
 /** Upsert a lesson's passed/not-passed state for a student. */

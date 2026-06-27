@@ -9,8 +9,8 @@ import { useEffect } from 'react';
 
 export default function PrintConsentForm() {
   useEffect(() => {
-    document.title = 'Veli Onayı / Parental Consent — Masjid Quran Learning';
-    return () => { document.title = 'Masjid Quran Learning'; };
+    document.title = 'Veli Onayı / Parental Consent — Ulu Cami Quran Learning';
+    return () => { document.title = 'Ulu Cami Quran Learning'; };
   }, []);
 
   return (
@@ -30,7 +30,7 @@ export default function PrintConsentForm() {
           <span lang="tr">Veli Onayı</span>
           {' / Parental Consent'}
         </h1>
-        <p className="consent-form__app">Masjid Quran Learning</p>
+        <p className="consent-form__app">Ulu Cami Quran Learning</p>
 
         <section>
           <h2>
@@ -38,12 +38,12 @@ export default function PrintConsentForm() {
             {' / About the app'}
           </h2>
           <p lang="tr">
-            Masjid Quran Learning uygulaması, çocuğunuzun camide kullandığı
+            Ulu Cami Quran Learning uygulaması, çocuğunuzun camide kullandığı
             Kaide kitabındaki ifadeleri kendi hızında öğrenmesine yardımcı olur.
             Her ders, ifadelerin kısa ses kayıtlarını içerir.
           </p>
           <p>
-            The Masjid Quran Learning app helps your child learn Quranic phrases
+            The Ulu Cami Quran Learning app helps your child learn Quranic phrases
             at their own pace. Each lesson contains short audio recordings of
             phrases from the Qaida book used at the masjid.
           </p>
@@ -109,13 +109,13 @@ export default function PrintConsentForm() {
           </h2>
           <p lang="tr">
             Ben, _______________________________________________ (veli adı),
-            çocuğumun Masjid Quran Learning uygulamasını kullanmasına izin
+            çocuğumun Ulu Cami Quran Learning uygulamasını kullanmasına izin
             veriyorum ve yukarıda açıklanan verilerin saklanmasını kabul
             ediyorum.
           </p>
           <p>
             I, _______________________________________________ (parent /
-            guardian name), give consent for my child to use the Masjid Quran
+            guardian name), give consent for my child to use the Ulu Cami Quran
             Learning App, and acknowledge the data described above.
           </p>
 

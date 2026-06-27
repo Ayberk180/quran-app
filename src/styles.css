@@ -413,6 +413,18 @@ body {
   transition-duration: 60ms;
 }
 
+/* Locked tiles (another clip is playing): no hover lift, no press feedback.
+   Deliberately no dimming — the only highlight is the playing tile itself. */
+.phrase-tile:disabled {
+  cursor: default;
+}
+
+.phrase-tile:disabled:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: color-mix(in srgb, var(--saffron-gold) 35%, var(--parchment));
+}
+
 .phrase-tile img {
   display: block;
   width: 100%;
@@ -699,6 +711,100 @@ body {
   font-size: 0.875em;
 }
 
+.name-edit__trigger {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.65em;
+  opacity: 0.4;
+  padding: 0 var(--s2);
+  vertical-align: middle;
+  transition: opacity 0.15s;
+}
+.name-edit__trigger:hover { opacity: 1; }
+
+.name-edit {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s3);
+  max-width: 22rem;
+}
+
+.name-edit__input {
+  font-size: var(--text-lg);
+  padding: var(--s2) var(--s3);
+  border: 2px solid var(--iznik-blue);
+  border-radius: var(--r);
+  background: var(--off-white);
+  color: var(--charcoal);
+  width: 100%;
+}
+
+.name-edit__error {
+  font-size: var(--text-sm);
+  color: #c0392b;
+}
+
+.name-edit__actions {
+  display: flex;
+  gap: var(--s3);
+}
+
+.name-edit__btn {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  padding: var(--s2) var(--s4);
+  border: 2px solid var(--iznik-blue);
+  border-radius: var(--r);
+  background: transparent;
+  color: var(--iznik-blue);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.name-edit__btn:hover { background: var(--iznik-blue); color: #fff; }
+.name-edit__btn--save { background: var(--iznik-blue); color: #fff; }
+.name-edit__btn--save:hover { opacity: 0.85; }
+.name-edit__btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.student-delete {
+  margin-top: var(--s4);
+}
+
+.student-delete__confirm-msg {
+  font-size: var(--text-sm);
+  margin-bottom: var(--s3);
+  color: var(--charcoal);
+}
+
+.student-delete__actions {
+  display: flex;
+  gap: var(--s3);
+}
+
+.student-delete__btn {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  padding: var(--s2) var(--s4);
+  border: 2px solid #c0392b;
+  border-radius: var(--r);
+  background: transparent;
+  color: #c0392b;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.student-delete__btn:hover { background: #c0392b; color: #fff; }
+.student-delete__btn--danger { opacity: 0.7; }
+.student-delete__btn--danger:hover { opacity: 1; }
+.student-delete__btn--confirm { background: #c0392b; color: #fff; }
+.student-delete__btn--confirm:hover { opacity: 0.85; background: #c0392b; }
+.student-delete__btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.student-delete__error {
+  margin-top: var(--s2);
+  font-size: var(--text-sm);
+  color: #c0392b;
+}
+
 .instructor-detail__section {
   padding: var(--s4) 0;
 }
@@ -961,6 +1067,30 @@ body {
   letter-spacing: 0.11em;
   color: var(--charcoal);
   opacity: 0.55;
+}
+
+.add-student__pin-row {
+  display: flex;
+  align-items: center;
+  gap: var(--s3);
+}
+
+.add-student__copy {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  padding: var(--s2) var(--s4);
+  border: 2px solid var(--iznik-blue);
+  border-radius: var(--r);
+  background: transparent;
+  color: var(--iznik-blue);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s, color 0.15s;
+}
+
+.add-student__copy:hover {
+  background: var(--iznik-blue);
+  color: #fff;
 }
 
 .add-student__pin {

@@ -13,7 +13,9 @@ import {
   fetchStudentLessonProgress,
   fetchLoginEvents,
   setLessonStatus,
+  updateStudentName,
 } from '../lib/instructor.js';
+import { deleteStudent } from '../lib/admin.js';
 
 const RANGES = [
   { key: '7d',   days: 7,   label: '7d' },
@@ -29,6 +31,12 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
   const [loginEvents, setLoginEvents] = useState(null);
   const [range, setRange] = useState('30d');
   const [saving, setSaving] = useState(false);
+  const [editing, setEditing] = useState(false);
+  const [editFirst, setEditFirst] = useState('');
+  const [editLast, setEditLast] = useState('');
+  const [nameError, setNameError] = useState('');
+  const [confirmDelete, setConfirmDelete] = useState(false);
+  const [deleteError, setDeleteError] = useState('');
 
   useEffect(() => {
     let mounted = true;
@@ -83,6 +91,43 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
     }
   }
 
+  function startEditing() {
+    setEditFirst(student.first_name);
+    setEditLast(student.last_name ?? '');
+    setNameError('');
+    setEditing(true);
+  }
+
+  async function saveName(e) {
+    e.preventDefault();
+    const first = editFirst.trim();
+    if (!first) { setNameError('First name is required'); return; }
+    setSaving(true);
+    setNameError('');
+    try {
+      await updateStudentName(studentId, { first_name: first, last_name: editLast.trim() });
+      setStudent((s) => ({ ...s, first_name: first, last_name: editLast.trim() || null }));
+      setEditing(false);
+    } catch (err) {
+      setNameError(err.message || 'Failed to save');
+    } finally {
+      setSaving(false);
+    }
+  }
+
+  async function handleDelete() {
+    setSaving(true);
+    setDeleteError('');
+    try {
+      await deleteStudent(studentId);
+      window.location.hash = '#/instructor';
+    } catch (err) {
+      setDeleteError(err.message || 'Failed to delete student');
+      setSaving(false);
+      setConfirmDelete(false);
+    }
+  }
+
   if (!student || !progress || !manifest) return null;
 
   const lessons = manifest.lessons;
@@ -99,10 +144,50 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
       </a>
 
       <header className="instructor-detail__header">
-        <h1 className="instructor-detail__title">
-          {student.first_name}
-          {student.last_initial ? ` ${student.last_initial}.` : ''}
-        </h1>
+        {editing ? (
+          <form className="name-edit" onSubmit={saveName}>
+            <input
+              className="name-edit__input"
+              value={editFirst}
+              onChange={(e) => setEditFirst(e.target.value)}
+              maxLength={80}
+              placeholder="First name"
+              autoFocus
+              required
+            />
+            <input
+              className="name-edit__input"
+              value={editLast}
+              onChange={(e) => setEditLast(e.target.value)}
+              maxLength={80}
+              placeholder="Last name (optional)"
+            />
+            {nameError && <p className="name-edit__error" role="alert">{nameError}</p>}
+            <div className="name-edit__actions">
+              <button type="submit" className="name-edit__btn name-edit__btn--save" disabled={saving}>
+                {saving ? 'Saving…' : 'Save'}
+              </button>
+              <button type="button" className="name-edit__btn" onClick={() => setEditing(false)} disabled={saving}>
+                Cancel
+              </button>
+            </div>
+          </form>
+        ) : (
+          <h1 className="instructor-detail__title">
+            {student.first_name}
+            {student.last_name
+              ? ` ${student.last_name}`
+              : student.last_initial ? ` ${student.last_initial}.` : ''}
+            <button
+              type="button"
+              className="name-edit__trigger"
+              onClick={startEditing}
+              aria-label="Edit name"
+            >
+              ✎
+            </button>
+          </h1>
+        )}
         <p className="instructor-detail__meta">
           {student.student_code && (
             <>
@@ -112,6 +197,45 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
           )}
           {passedCount}/{lessons.length} passed
         </p>
+
+        {profile.role === 3 && (
+          <div className="student-delete">
+            {confirmDelete ? (
+              <>
+                <p className="student-delete__confirm-msg">
+                  Delete <strong>{student.first_name}</strong>? This cannot be undone.
+                </p>
+                <div className="student-delete__actions">
+                  <button
+                    type="button"
+                    className="student-delete__btn student-delete__btn--confirm"
+                    onClick={handleDelete}
+                    disabled={saving}
+                  >
+                    {saving ? 'Deleting…' : 'Yes, delete'}
+                  </button>
+                  <button
+                    type="button"
+                    className="student-delete__btn"
+                    onClick={() => setConfirmDelete(false)}
+                    disabled={saving}
+                  >
+                    Cancel
+                  </button>
+                </div>
+                {deleteError && <p className="student-delete__error" role="alert">{deleteError}</p>}
+              </>
+            ) : (
+              <button
+                type="button"
+                className="student-delete__btn student-delete__btn--danger"
+                onClick={() => setConfirmDelete(true)}
+              >
+                Delete student
+              </button>
+            )}
+          </div>
+        )}
       </header>
 
       {/* ── Lessons (clickable) ─────────────────────────────────────── */}

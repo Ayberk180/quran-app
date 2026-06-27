@@ -68,7 +68,7 @@ Deno.serve(async (req: Request) => {
     return json(403, { error: 'Only instructors can add students' });
   }
 
-  let body: { first_name?: unknown; last_initial?: unknown; consent_collected?: unknown };
+  let body: { first_name?: unknown; last_name?: unknown; consent_collected?: unknown };
   try {
     body = await req.json();
   } catch {
@@ -77,9 +77,9 @@ Deno.serve(async (req: Request) => {
 
   const firstName =
     typeof body.first_name === 'string' ? body.first_name.trim() : '';
-  const lastInitial =
-    typeof body.last_initial === 'string' && body.last_initial.trim()
-      ? body.last_initial.trim().slice(0, 1).toUpperCase()
+  const lastName =
+    typeof body.last_name === 'string' && body.last_name.trim()
+      ? body.last_name.trim().slice(0, 80)
       : null;
   const consentCollected = body.consent_collected === true;
 
@@ -133,7 +133,7 @@ Deno.serve(async (req: Request) => {
     school_id: caller.school_id,
     role: 1,
     first_name: firstName,
-    last_initial: lastInitial,
+    last_name: lastName,
     student_code: pin,
     consent_collected_at: new Date().toISOString(),
   });
@@ -151,7 +151,7 @@ Deno.serve(async (req: Request) => {
     profile_id: created.user.id,
     student_code: pin,
     first_name: firstName,
-    last_initial: lastInitial,
+    last_name: lastName,
   });
 });
 

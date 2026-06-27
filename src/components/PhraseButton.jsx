@@ -1,20 +1,19 @@
 /**
- * Single phrase tile: image button that will play audio on click.
- * Audio wiring is Phase 2 — the click handler is a stub for now.
+ * Single phrase tile: an image button that plays its recording on click.
+ * Presentational — playback and the grid-wide lock live in usePhrasePlayer
+ * (lifted to LessonView). While another tile is playing this one is disabled.
  */
-export default function PhraseButton({ phrase }) {
-  function handleClick() {
-    // TODO (Phase 2): play phrase.audio, set data-playing="true" while playing
-    console.log('phrase clicked', phrase);
-  }
-
+export default function PhraseButton({ phrase, isPlaying, locked, onPlay }) {
   return (
     <button
       type="button"
       className="phrase-tile"
       data-phrase-id={phrase.id}
+      data-playing={isPlaying ? 'true' : undefined}
       aria-label={phrase.transliteration || phrase.id}
-      onClick={handleClick}
+      aria-busy={isPlaying}
+      disabled={locked && !isPlaying}
+      onClick={() => onPlay(phrase)}
     >
       <img
         src={phrase.image}

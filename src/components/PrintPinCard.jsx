@@ -17,14 +17,16 @@ export default function PrintPinCard({ studentId }) {
 
   useEffect(() => {
     if (student) document.title = `PIN — ${student.first_name}`;
-    return () => { document.title = 'Masjid Quran Learning'; };
+    return () => { document.title = 'Ulu Cami Quran Learning'; };
   }, [student]);
 
   if (!student) return null;
 
   const name =
     student.first_name +
-    (student.last_initial ? ` ${student.last_initial}.` : '');
+    (student.last_name
+      ? ` ${student.last_name}`
+      : student.last_initial ? ` ${student.last_initial}.` : '');
 
   return (
     <div className="print-page">
@@ -39,7 +41,7 @@ export default function PrintPinCard({ studentId }) {
       </div>
 
       <article className="pin-card">
-        <p className="pin-card__app">Masjid Quran Learning</p>
+        <p className="pin-card__app">Ulu Cami Quran Learning</p>
         <p className="pin-card__name">{name}</p>
         <p className="pin-card__label">
           <span lang="tr">PIN&rsquo;in</span>

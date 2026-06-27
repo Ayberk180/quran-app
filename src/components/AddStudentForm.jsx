@@ -9,12 +9,13 @@ import { useEffect, useState } from 'react';
 import { addStudent } from '../lib/admin.js';
 
 export default function AddStudentForm({ onClose, onCreated }) {
-  const [firstName, setFirstName]   = useState('');
-  const [lastInitial, setLastInitial] = useState('');
-  const [consent, setConsent]       = useState(false);
-  const [error, setError]           = useState('');
-  const [busy, setBusy]             = useState(false);
-  const [created, setCreated]       = useState(null);
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName]   = useState('');
+  const [consent, setConsent]     = useState(false);
+  const [error, setError]         = useState('');
+  const [busy, setBusy]           = useState(false);
+  const [created, setCreated]     = useState(null);
+  const [copied, setCopied]       = useState(false);
 
   // Esc closes the modal
   useEffect(() => {
@@ -39,7 +40,7 @@ export default function AddStudentForm({ onClose, onCreated }) {
     try {
       const result = await addStudent({
         first_name: firstName.trim(),
-        last_initial: lastInitial.trim() || null,
+        last_name: lastName.trim() || null,
         consent_collected: true,
       });
       setCreated(result);
@@ -60,13 +61,26 @@ export default function AddStudentForm({ onClose, onCreated }) {
         </h2>
         <p className="add-student__name">
           {created.first_name}
-          {created.last_initial ? ` ${created.last_initial}.` : ''}
+          {created.last_name ? ` ${created.last_name}` : ''}
         </p>
         <p className="add-student__pin-label">
           <span lang="tr">PIN</span>
           {' / PIN'}
         </p>
-        <p className="add-student__pin">{created.student_code}</p>
+        <div className="add-student__pin-row">
+          <p className="add-student__pin">{created.student_code}</p>
+          <button
+            type="button"
+            className="add-student__copy"
+            onClick={() => {
+              navigator.clipboard.writeText(created.student_code);
+              setCopied(true);
+              setTimeout(() => setCopied(false), 2000);
+            }}
+          >
+            {copied ? 'Copied!' : 'Copy'}
+          </button>
+        </div>
         <p className="add-student__hint">
           <span lang="tr">Bunu yazın — bir daha gösterilmeyecek.</span>
           <br />
@@ -132,14 +146,14 @@ export default function AddStudentForm({ onClose, onCreated }) {
 
       <label className="login-form__field">
         <span>
-          <span lang="tr">Soyadın baş harfi</span>
-          {' / Last initial (optional)'}
+          <span lang="tr">Soyad</span>
+          {' / Last name (optional)'}
         </span>
         <input
           type="text"
-          value={lastInitial}
-          onChange={(e) => setLastInitial(e.target.value.slice(0, 1).toUpperCase())}
-          maxLength={1}
+          value={lastName}
+          onChange={(e) => setLastName(e.target.value)}
+          maxLength={80}
         />
       </label>
 

@@ -122,7 +122,9 @@ export default function InstructorView({ profile }) {
                 >
                   <span role="cell" className="roster__name">
                     {s.first_name}
-                    {s.last_initial ? ` ${s.last_initial}.` : ''}
+                    {s.last_name
+                      ? ` ${s.last_name}`
+                      : s.last_initial ? ` ${s.last_initial}.` : ''}
                   </span>
                   <span role="cell">
                     {s.current_lesson != null

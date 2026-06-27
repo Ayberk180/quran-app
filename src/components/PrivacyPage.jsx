@@ -7,8 +7,8 @@ import { useEffect } from 'react';
 
 export default function PrivacyPage() {
   useEffect(() => {
-    document.title = 'Gizlilik / Privacy — Masjid Quran Learning';
-    return () => { document.title = 'Masjid Quran Learning'; };
+    document.title = 'Gizlilik / Privacy — Ulu Cami Quran Learning';
+    return () => { document.title = 'Ulu Cami Quran Learning'; };
   }, []);
 
   return (

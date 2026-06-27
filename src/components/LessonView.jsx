@@ -7,9 +7,11 @@
  * RTL applied per-element, not to the whole section.
  */
 import PhraseButton from './PhraseButton.jsx';
+import usePhrasePlayer from '../hooks/usePhrasePlayer.js';
 
 export default function LessonView({ lesson }) {
   const num = String(lesson.number).padStart(2, '0');
+  const { playingId, locked, play } = usePhrasePlayer();
 
   return (
     <section className="lesson-view">
@@ -53,7 +55,13 @@ export default function LessonView({ lesson }) {
         /* dir="rtl" mirrors the physical book layout: phrase-001 is top-right */
         <div className="phrase-grid" dir="rtl">
           {lesson.phrases.map((phrase) => (
-            <PhraseButton key={phrase.id} phrase={phrase} />
+            <PhraseButton
+              key={phrase.id}
+              phrase={phrase}
+              isPlaying={playingId === phrase.id}
+              locked={locked}
+              onPlay={play}
+            />
           ))}
         </div>
       )}

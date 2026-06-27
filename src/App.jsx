@@ -181,7 +181,7 @@ export default function App() {
 
   if (route.view === 'lesson') {
     const lesson = findLesson(manifest, route.lessonId);
-    if (lesson) return <LessonView lesson={lesson} />;
+    if (lesson) return <LessonView key={lesson.id} lesson={lesson} />;
   }
 
   return (
