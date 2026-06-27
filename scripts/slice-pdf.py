@@ -258,6 +258,7 @@ def process_page(
     pdf_path: Path,
     page_number: int,  # 1-indexed
     args: argparse.Namespace,
+    total_pages: int = 0,
 ) -> None:
     page_img = render_page(pdf_path, page_number - 1, args.dpi)
 
@@ -286,11 +287,18 @@ def process_page(
         args.inset_x, args.inset_y,
     )
 
-    lesson_id = f"lesson-{page_number:02d}"
+    if args.lesson is not None:
+        lesson_number = args.lesson
+    elif args.reverse:
+        lesson_number = total_pages - page_number + 1
+    else:
+        lesson_number = page_number
+    lesson_id = f"lesson-{lesson_number:02d}"
     out_dir = Path(args.output_root) / lesson_id
 
+    rev_note = " (reversed)" if args.reverse else ""
     print(
-        f"page {page_number:>3} → {lesson_id}: "
+        f"page {page_number:>3} → {lesson_id}{rev_note}: "
         f"grid={grid_bbox} gutter=({args.gutter_x},{args.gutter_y}) "
         f"inset=({args.inset_x},{args.inset_y}) cells={len(cells)}"
     )
@@ -337,6 +345,8 @@ def main() -> int:
     ap.add_argument("--webp", action="store_true", help="save .webp at quality 90 instead of .png")
     ap.add_argument("--remove-bg", action="store_true", help="remove the cream background from each crop, leaving ink on a transparent layer")
     ap.add_argument("--output-root", type=Path, default=DEFAULT_OUTPUT_ROOT)
+    ap.add_argument("--reverse", action="store_true", help="PDF is in reverse order (page 1 = last lesson). Maps page N to lesson (total-N+1).")
+    ap.add_argument("--lesson", type=int, default=None, help="override the target lesson number for the sliced page (e.g. --page 3 --lesson 26). Only valid when slicing a single page.")
     args = ap.parse_args()
 
     if args.inset is not None:
@@ -359,8 +369,12 @@ def main() -> int:
             print(f"error: {e}", file=sys.stderr)
             return 1
 
+    if args.lesson is not None and len(page_numbers) > 1:
+        print("error: --lesson can only be used when slicing a single page", file=sys.stderr)
+        return 1
+
     for pn in page_numbers:
-        process_page(args.pdf, pn, args)
+        process_page(args.pdf, pn, args, total_pages=total_pages)
 
     return 0
 

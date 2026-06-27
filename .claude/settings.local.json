@@ -38,7 +38,10 @@
       "Bash(git commit *)",
       "Bash(git config *)",
       "Bash(git push *)",
-      "Bash(grep -E \"\\\\.\\(html|jsx|tsx|css|json\\)$\")"
+      "Bash(grep -E \"\\\\.\\(html|jsx|tsx|css|json\\)$\")",
+      "Bash(mkvirtualenv --version)",
+      "Bash(nvm --version)",
+      "Bash(bash)"
     ]
   }
 }
