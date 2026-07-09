@@ -42,7 +42,9 @@
       "Bash(mkvirtualenv --version)",
       "Bash(nvm --version)",
       "Bash(bash)",
-      "Bash(supabase status *)"
+      "Bash(supabase status *)",
+      "Bash(ls -la .env*)",
+      "Bash(cat .gitignore)"
     ]
   }
 }
