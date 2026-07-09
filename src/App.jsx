@@ -14,6 +14,7 @@ import RecordingView from './components/RecordingView.jsx';
 import PrintPinCard from './components/PrintPinCard.jsx';
 import PrintConsentForm from './components/PrintConsentForm.jsx';
 import PrivacyPage from './components/PrivacyPage.jsx';
+import SignInPrompt from './components/SignInPrompt.jsx';
 
 const AUTH_ROUTES = new Set([
   'student-dashboard',
@@ -185,10 +186,13 @@ export default function App() {
   }
 
   return (
-    <LessonList
-      manifest={manifest}
-      profile={profile}
-      progressMap={progressMap}
-    />
+    <>
+      <LessonList
+        manifest={manifest}
+        profile={profile}
+        progressMap={progressMap}
+      />
+      {authReady && !profile && <SignInPrompt />}
+    </>
   );
 }

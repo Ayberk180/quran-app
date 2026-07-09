@@ -84,6 +84,19 @@ select auth_school_id(), auth_user_role();
 -- Should return your school id and role 3.
 ```
 
+## Keeping users signed in indefinitely
+
+The frontend already persists sessions client-side: `@supabase/supabase-js` defaults to
+`persistSession: true` + `autoRefreshToken: true` backed by `localStorage`, so a returning
+visitor stays signed in across reloads and browser restarts without any extra code.
+
+True "never log out" is governed **server-side**, not in code. In the Supabase Dashboard →
+**Authentication → Sessions**, confirm:
+- **Time-box user sessions** is **off** (no forced max session length).
+- **Inactivity timeout** is **off** (sessions don't expire after idle time).
+
+With both disabled, refresh tokens keep rotating and users are never silently logged out.
+
 ## Migrations checklist
 
 Run these in order via the Supabase SQL Editor (or `supabase db push`):

@@ -1106,6 +1106,73 @@ body {
   margin: var(--s2) 0 var(--s4);
 }
 
+/* ── Sign-in prompt (homepage nudge) ─────────────────────────────────────── */
+
+.signin-prompt {
+  text-align: center;
+  max-width: 400px;
+}
+
+.signin-prompt__title {
+  font-family: var(--heading);
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--iznik-blue);
+  letter-spacing: 0.01em;
+  margin-bottom: var(--s3);
+}
+
+.signin-prompt__hint {
+  font-size: var(--text-sm);
+  color: var(--charcoal);
+  opacity: 0.8;
+  line-height: 1.55;
+  margin-bottom: var(--s5);
+}
+
+.signin-prompt__actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--s3);
+}
+
+.signin-prompt__primary,
+.signin-prompt__secondary {
+  padding: var(--s3) var(--s5);
+  border-radius: var(--r);
+  font-family: var(--ui);
+  font-size: var(--text-base);
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: border-color var(--dur) var(--ease), background var(--dur) var(--ease);
+}
+
+.signin-prompt__primary {
+  background: var(--iznik-blue);
+  color: var(--off-white);
+  border-color: var(--iznik-blue);
+}
+
+.signin-prompt__primary:hover,
+.signin-prompt__primary:focus-visible {
+  background: color-mix(in srgb, var(--iznik-blue) 88%, black);
+  outline: none;
+}
+
+.signin-prompt__secondary {
+  background: transparent;
+  color: var(--charcoal);
+  opacity: 0.75;
+}
+
+.signin-prompt__secondary:hover,
+.signin-prompt__secondary:focus-visible {
+  opacity: 1;
+  border-color: color-mix(in srgb, var(--charcoal) 20%, transparent);
+  outline: none;
+}
+
 /* ── Printable pages ─────────────────────────────────────────────────────── */
 
 .print-page {
