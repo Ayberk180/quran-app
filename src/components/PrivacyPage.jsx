@@ -41,7 +41,7 @@ export default function PrivacyPage() {
           <ul>
             <li>
               <span lang="tr">Öğrencinin adı (ve isteğe bağlı soyad baş harfi)</span>
-              {' / the student\'s first name (and optional last initial)'}
+              {' / the student\'s first name (and optional last name)'}
             </li>
             <li>
               <span lang="tr">Sadece giriş için kullanılan 6 haneli PIN</span>
