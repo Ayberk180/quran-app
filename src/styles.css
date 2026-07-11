@@ -102,7 +102,8 @@ body {
 
 .app-header {
   border-top: 6px solid var(--madder-red);
-  padding: var(--s6) var(--s5) var(--s5);
+  /* Extra top padding clears the fixed top-left language toggle. */
+  padding: var(--s8) var(--s5) var(--s5);
   position: relative;
 }
 
@@ -311,7 +312,8 @@ body {
 /* ── Lesson view ──────────────────────────────────────────────────────────── */
 
 .lesson-view {
-  padding: var(--s4) var(--s5) var(--s10);
+  /* Extra top padding clears the fixed top-left language toggle. */
+  padding: var(--s8) var(--s5) var(--s10);
 }
 
 .back-link {
@@ -381,6 +383,20 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: var(--s2);
+  /* Cap total width so columns stay narrow and tiles sit close together
+     on wide screens. Below this width (mobile) the grid fills naturally,
+     keeping tap targets a comfortable size. Centered within the view. */
+  max-width: 34rem;
+  margin-inline: auto;
+}
+
+.phrase-grid + .phrase-grid {
+  margin-top: var(--s2);
+}
+
+/* Trailing row of 5 (e.g. lesson 1's 29th phrase) instead of a lone 4+1 tile. */
+.phrase-grid--tail {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 /* ── Phrase tile — letter card aesthetic ─────────────────────────────────── */
@@ -453,7 +469,8 @@ body {
 
 .student-dashboard__header {
   border-top: 6px solid var(--madder-red);
-  padding: var(--s6) 0 var(--s5);
+  /* Extra top padding clears the fixed top-left language toggle. */
+  padding: var(--s8) 0 var(--s5);
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -546,7 +563,8 @@ body {
 
 .instructor-view__header {
   border-top: 6px solid var(--madder-red);
-  padding: var(--s6) 0 var(--s5);
+  /* Extra top padding clears the fixed top-left language toggle. */
+  padding: var(--s8) 0 var(--s5);
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -678,7 +696,8 @@ body {
 
 /* Per-student detail */
 .instructor-detail {
-  padding: var(--s4) var(--s5) var(--s10);
+  /* Extra top padding clears the fixed top-left language toggle. */
+  padding: var(--s8) var(--s5) var(--s10);
 }
 
 .instructor-detail__header {
@@ -927,6 +946,56 @@ body {
   .instructor-detail {
     padding-left: var(--s4);
     padding-right: var(--s4);
+  }
+}
+
+/* ── Language toggle (global, top-right corner) ──────────────────────────── */
+
+.language-toggle {
+  position: fixed;
+  top: var(--s4);
+  left: var(--s5);
+  z-index: 90;
+  display: flex;
+  align-items: center;
+  gap: var(--s1);
+  font-family: var(--ui);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: var(--s2) var(--s3);
+  border: 1px solid color-mix(in srgb, var(--iznik-blue) 25%, transparent);
+  border-radius: var(--r-sm);
+  background: var(--off-white);
+  cursor: pointer;
+  transition: border-color var(--dur) var(--ease);
+}
+
+.language-toggle:hover,
+.language-toggle:focus-visible {
+  border-color: var(--saffron-gold);
+  outline: none;
+}
+
+.language-toggle__option {
+  color: var(--charcoal);
+  opacity: 0.4;
+}
+
+.language-toggle__option--active {
+  color: var(--iznik-blue);
+  opacity: 1;
+}
+
+.language-toggle__sep {
+  color: var(--charcoal);
+  opacity: 0.3;
+}
+
+@media (max-width: 480px) {
+  .language-toggle {
+    top: var(--s3);
+    left: var(--s3);
   }
 }
 
@@ -1630,7 +1699,8 @@ body {
   }
 
   .app-header {
-    padding: var(--s5) var(--s4) var(--s4);
+    /* Extra top padding clears the fixed top-left language toggle. */
+    padding: var(--s8) var(--s4) var(--s4);
   }
 
   .lesson-list {
@@ -1684,7 +1754,8 @@ body {
 
 .record-view__header {
   border-top: 6px solid var(--madder-red);
-  padding: var(--s6) 0 var(--s5);
+  /* Extra top padding clears the fixed top-left language toggle. */
+  padding: var(--s8) 0 var(--s5);
   display: flex;
   align-items: flex-start;
   justify-content: space-between;

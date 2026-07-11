@@ -16,6 +16,7 @@ import {
   updateStudentName,
 } from '../lib/instructor.js';
 import { deleteStudent } from '../lib/admin.js';
+import { useLanguage } from '../lib/i18n.jsx';
 
 const RANGES = [
   { key: '7d',   days: 7,   label: '7d' },
@@ -26,6 +27,7 @@ const RANGES = [
 ];
 
 export default function InstructorStudentDetail({ studentId, profile, manifest }) {
+  const { t } = useLanguage();
   const [student, setStudent] = useState(null);
   const [progress, setProgress] = useState(null);
   const [loginEvents, setLoginEvents] = useState(null);
@@ -101,7 +103,7 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
   async function saveName(e) {
     e.preventDefault();
     const first = editFirst.trim();
-    if (!first) { setNameError('First name is required'); return; }
+    if (!first) { setNameError(t('studentDetail.error.firstName')); return; }
     setSaving(true);
     setNameError('');
     try {
@@ -109,7 +111,7 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
       setStudent((s) => ({ ...s, first_name: first, last_name: editLast.trim() || null }));
       setEditing(false);
     } catch (err) {
-      setNameError(err.message || 'Failed to save');
+      setNameError(err.message || t('studentDetail.error.saveName'));
     } finally {
       setSaving(false);
     }
@@ -122,7 +124,7 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
       await deleteStudent(studentId);
       window.location.hash = '#/instructor';
     } catch (err) {
-      setDeleteError(err.message || 'Failed to delete student');
+      setDeleteError(err.message || t('studentDetail.error.delete'));
       setSaving(false);
       setConfirmDelete(false);
     }
@@ -137,10 +139,7 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
     <div className="instructor-detail">
       <a href="#/instructor" className="back-link">
         <span className="back-link__arrow" aria-hidden="true">←</span>
-        <span>
-          <span lang="tr">Listeye dön</span>
-          {' / Back to roster'}
-        </span>
+        <span>{t('studentDetail.back')}</span>
       </a>
 
       <header className="instructor-detail__header">
@@ -151,7 +150,7 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
               value={editFirst}
               onChange={(e) => setEditFirst(e.target.value)}
               maxLength={80}
-              placeholder="First name"
+              placeholder={t('studentDetail.firstNamePh')}
               autoFocus
               required
             />
@@ -160,15 +159,15 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
               value={editLast}
               onChange={(e) => setEditLast(e.target.value)}
               maxLength={80}
-              placeholder="Last name (optional)"
+              placeholder={t('studentDetail.lastNamePh')}
             />
             {nameError && <p className="name-edit__error" role="alert">{nameError}</p>}
             <div className="name-edit__actions">
               <button type="submit" className="name-edit__btn name-edit__btn--save" disabled={saving}>
-                {saving ? 'Saving…' : 'Save'}
+                {saving ? t('studentDetail.saving') : t('studentDetail.save')}
               </button>
               <button type="button" className="name-edit__btn" onClick={() => setEditing(false)} disabled={saving}>
-                Cancel
+                {t('studentDetail.cancel')}
               </button>
             </div>
           </form>
@@ -182,7 +181,7 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
               type="button"
               className="name-edit__trigger"
               onClick={startEditing}
-              aria-label="Edit name"
+              aria-label={t('studentDetail.editName')}
             >
               ✎
             </button>
@@ -191,11 +190,11 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
         <p className="instructor-detail__meta">
           {student.student_code && (
             <>
-              PIN <code>{student.student_code}</code>
+              {t('studentDetail.pinLabel')} <code>{student.student_code}</code>
               {' · '}
             </>
           )}
-          {passedCount}/{lessons.length} passed
+          {t('studentDetail.passedOf', { n: passedCount, total: lessons.length })}
         </p>
 
         {profile.role === 3 && (
@@ -203,7 +202,7 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
             {confirmDelete ? (
               <>
                 <p className="student-delete__confirm-msg">
-                  Delete <strong>{student.first_name}</strong>? This cannot be undone.
+                  {t('studentDetail.confirmDelete', { name: student.first_name })}
                 </p>
                 <div className="student-delete__actions">
                   <button
@@ -212,7 +211,7 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
                     onClick={handleDelete}
                     disabled={saving}
                   >
-                    {saving ? 'Deleting…' : 'Yes, delete'}
+                    {saving ? t('studentDetail.deleting') : t('studentDetail.yesDelete')}
                   </button>
                   <button
                     type="button"
@@ -220,7 +219,7 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
                     onClick={() => setConfirmDelete(false)}
                     disabled={saving}
                   >
-                    Cancel
+                    {t('studentDetail.cancel')}
                   </button>
                 </div>
                 {deleteError && <p className="student-delete__error" role="alert">{deleteError}</p>}
@@ -231,7 +230,7 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
                 className="student-delete__btn student-delete__btn--danger"
                 onClick={() => setConfirmDelete(true)}
               >
-                Delete student
+                {t('studentDetail.deleteStudent')}
               </button>
             )}
           </div>
@@ -240,10 +239,7 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
 
       {/* ── Lessons (clickable) ─────────────────────────────────────── */}
       <section className="instructor-detail__section">
-        <span className="lesson-list__label">
-          <span lang="tr">Dersler — geçiş için tıklayın</span>
-          {' / Lessons — click to toggle'}
-        </span>
+        <span className="lesson-list__label">{t('studentDetail.lessonsToggle')}</span>
 
         <div className="lesson-grid lesson-grid--clickable">
           {lessons.map((l) => {
@@ -276,10 +272,7 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
 
       {/* ── Login frequency ─────────────────────────────────────────── */}
       <section className="instructor-detail__section">
-        <span className="lesson-list__label">
-          <span lang="tr">Giriş sıklığı</span>
-          {' / Login frequency'}
-        </span>
+        <span className="lesson-list__label">{t('studentDetail.loginFrequency')}</span>
 
         <div className="range-selector" role="tablist">
           {RANGES.map((r) => (
@@ -300,25 +293,18 @@ export default function InstructorStudentDetail({ studentId, profile, manifest }
         </div>
 
         {loginEvents === null ? (
-          <p className="empty-state">
-            <span lang="tr">Yükleniyor…</span>
-            {' / Loading…'}
-          </p>
+          <p className="empty-state">{t('studentDetail.loading')}</p>
         ) : buckets.length === 0 || buckets.every((b) => b.count === 0) ? (
-          <p className="empty-state">
-            <span lang="tr">Bu aralıkta giriş yok.</span>
-            <br />
-            No logins in this range.
-          </p>
+          <p className="empty-state">{t('studentDetail.noLogins')}</p>
         ) : (
-          <LoginChart buckets={buckets} />
+          <LoginChart buckets={buckets} t={t} />
         )}
       </section>
     </div>
   );
 }
 
-function LoginChart({ buckets }) {
+function LoginChart({ buckets, t }) {
   const max = Math.max(1, ...buckets.map((b) => b.count));
   return (
     <div className="login-chart" aria-label="Login frequency chart">
@@ -331,7 +317,13 @@ function LoginChart({ buckets }) {
             <div
               className="login-chart__bar"
               style={{ height: `${(b.count / max) * 100}%` }}
-              title={`${b.count} login${b.count !== 1 ? 's' : ''} — ${b.fullLabel}`}
+              title={t('studentDetail.loginCount', {
+                n: b.count,
+                s: b.count !== 1 ? 's' : '',
+                label: b.isWeekly
+                  ? t('studentDetail.weekEnding', { date: b.dateLabel })
+                  : b.dateLabel,
+              })}
             />
           </div>
         ))}
@@ -368,9 +360,8 @@ function computeBuckets(events, days) {
       shortLabel: useDaily
         ? endDate.toLocaleDateString(undefined, { month: 'numeric', day: 'numeric' })
         : endDate.toLocaleDateString(undefined, { month: 'short', day: 'numeric' }),
-      fullLabel: useDaily
-        ? endDate.toLocaleDateString()
-        : `week ending ${endDate.toLocaleDateString()}`,
+      isWeekly: !useDaily,
+      dateLabel: endDate.toLocaleDateString(),
     });
   }
 

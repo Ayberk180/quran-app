@@ -2,35 +2,37 @@
  * Renders an individual lesson: header (title, Arabic subtitle, description)
  * + phrase grid.
  *
- * Turkish / English bilingual navigation (Turkish first per PRODUCT.md).
- * Arabic content elements carry lang="ar" for screen-reader semantics.
- * RTL applied per-element, not to the whole section.
+ * Navigation text switches between English and Turkish via the language
+ * toggle (see src/lib/i18n.jsx). Arabic content elements carry lang="ar"
+ * for screen-reader semantics. RTL applied per-element, not to the whole
+ * section.
  */
 import PhraseButton from './PhraseButton.jsx';
 import usePhrasePlayer from '../hooks/usePhrasePlayer.js';
+import { useLanguage } from '../lib/i18n.jsx';
 
 export default function LessonView({ lesson }) {
   const num = String(lesson.number).padStart(2, '0');
   const { playingId, locked, play } = usePhrasePlayer();
+  const { t } = useLanguage();
+
+  // A trailing group of 1 tile after filling 4-column rows looks orphaned;
+  // pull the last 5 phrases into their own 5-column row instead.
+  const hasOrphanTail = lesson.phrases.length % 4 === 1;
+  const mainPhrases = hasOrphanTail ? lesson.phrases.slice(0, -5) : lesson.phrases;
+  const tailPhrases = hasOrphanTail ? lesson.phrases.slice(-5) : [];
 
   return (
     <section className="lesson-view">
       {/* ── Back link ────────────────────────────────────────────────────── */}
       <a href="#/" className="back-link">
         <span className="back-link__arrow" aria-hidden="true">←</span>
-        <span>
-          <span lang="tr">Geri</span>
-          {' / Back'}
-        </span>
+        <span>{t('lesson.back')}</span>
       </a>
 
       {/* ── Lesson header ────────────────────────────────────────────────── */}
       <header className="lesson-view__header">
-        {/* Bilingual lesson number label */}
-        <p className="lesson-view__number">
-          <span lang="tr">Ders {num}</span>
-          {` / Lesson ${num}`}
-        </p>
+        <p className="lesson-view__number">{t('lesson.number', { n: num })}</p>
 
         <h1 className="lesson-view__title">{lesson.title}</h1>
 
@@ -47,23 +49,39 @@ export default function LessonView({ lesson }) {
 
       {/* ── Phrase grid ──────────────────────────────────────────────────── */}
       {lesson.phrases.length === 0 ? (
-        <p className="empty-state">
-          <span lang="tr">Bu derste henüz ifade yok.</span>
-          {'\nNo phrases yet for this lesson.'}
-        </p>
+        <p className="empty-state">{t('lesson.empty')}</p>
       ) : (
-        /* dir="rtl" mirrors the physical book layout: phrase-001 is top-right */
-        <div className="phrase-grid" dir="rtl">
-          {lesson.phrases.map((phrase) => (
-            <PhraseButton
-              key={phrase.id}
-              phrase={phrase}
-              isPlaying={playingId === phrase.id}
-              locked={locked}
-              onPlay={play}
-            />
-          ))}
-        </div>
+        <>
+          {/* dir="rtl" mirrors the physical book layout: phrase-001 is top-right */}
+          <div className="phrase-grid" dir="rtl">
+            {mainPhrases.map((phrase) => (
+              <PhraseButton
+                key={phrase.id}
+                phrase={phrase}
+                isPlaying={playingId === phrase.id}
+                locked={locked}
+                onPlay={play}
+              />
+            ))}
+          </div>
+
+          {/* Lesson 1 has 29 phrases (28 % 4 = 0 everywhere else); a lone
+              trailing tile looks orphaned, so its last 5 phrases get their
+              own 5-column row instead of 4 + 1. */}
+          {tailPhrases.length > 0 && (
+            <div className="phrase-grid phrase-grid--tail" dir="rtl">
+              {tailPhrases.map((phrase) => (
+                <PhraseButton
+                  key={phrase.id}
+                  phrase={phrase}
+                  isPlaying={playingId === phrase.id}
+                  locked={locked}
+                  onPlay={play}
+                />
+              ))}
+            </div>
+          )}
+        </>
       )}
     </section>
   );

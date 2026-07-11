@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { isConfigured } from '../lib/supabase.js';
 import { navigate } from '../lib/router.js';
+import { useLanguage } from '../lib/i18n.jsx';
 
 /**
  * Non-blocking sign-in suggestion shown over the homepage to signed-out
@@ -11,6 +12,7 @@ import { navigate } from '../lib/router.js';
 const SEEN_KEY = 'qapp:signin-prompt-seen';
 
 export default function SignInPrompt() {
+  const { t } = useLanguage();
   // Decide visibility once, at mount: only if configured and not yet seen
   // this session. Reading sessionStorage in the initializer avoids a flash.
   const [open, setOpen] = useState(() => {
@@ -67,16 +69,10 @@ export default function SignInPrompt() {
         onClick={(e) => e.stopPropagation()}
       >
         <h2 id="signin-prompt-title" className="signin-prompt__title">
-          <span lang="tr">Giriş yap</span>
-          {' / '}
-          <span>Sign in</span>
+          {t('signInPrompt.title')}
         </h2>
 
-        <p className="signin-prompt__hint">
-          <span lang="tr">İlerlemeni kaydetmek için giriş yap.</span>
-          {' '}
-          <span>Sign in to save your progress across lessons.</span>
-        </p>
+        <p className="signin-prompt__hint">{t('signInPrompt.hint')}</p>
 
         <div className="signin-prompt__actions">
           <button
@@ -85,9 +81,7 @@ export default function SignInPrompt() {
             className="signin-prompt__primary"
             onClick={signIn}
           >
-            <span lang="tr">Giriş yap</span>
-            {' / '}
-            <span>Sign in</span>
+            {t('signInPrompt.title')}
           </button>
 
           <button
@@ -95,9 +89,7 @@ export default function SignInPrompt() {
             className="signin-prompt__secondary"
             onClick={dismiss}
           >
-            <span lang="tr">Şimdi değil</span>
-            {' / '}
-            <span>Not now</span>
+            {t('signInPrompt.notNow')}
           </button>
         </div>
       </div>

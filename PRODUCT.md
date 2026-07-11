@@ -10,7 +10,7 @@ product
 
 **Secondary:** Parents supervising at home; masjid teachers handing devices to students or projecting in class. Any adult in the community may open this app with zero training — navigation must be self-evident.
 
-**Community language:** Turkish + English bilingual UI (navigation, labels, lesson titles).
+**Community language:** English by default, with a language toggle (top corner) that switches all UI text to Turkish. Printable parent-facing forms (PIN card, consent form) always render both languages regardless of the toggle, since a printed handout can't be switched after the fact.
 
 ## Product Purpose
 

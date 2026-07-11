@@ -10,8 +10,10 @@ import { fetchRoster } from '../lib/instructor.js';
 import { signOut } from '../lib/auth.js';
 import { navigate } from '../lib/router.js';
 import AddStudentForm from './AddStudentForm.jsx';
+import { useLanguage } from '../lib/i18n.jsx';
 
 export default function InstructorView({ profile }) {
+  const { t } = useLanguage();
   const [roster, setRoster]   = useState(null);
   const [showAdd, setShowAdd] = useState(false);
 
@@ -32,14 +34,13 @@ export default function InstructorView({ profile }) {
     <div className="instructor-view">
       <header className="instructor-view__header">
         <div>
-          <h1 className="instructor-view__title">
-            <span lang="tr">Yönetim</span>
-            {' / Instructor Portal'}
-          </h1>
+          <h1 className="instructor-view__title">{t('instructor.title')}</h1>
           <p className="instructor-view__meta">
-            {profile.first_name} · {roster.length}{' '}
-            <span lang="tr">öğrenci</span>{' / '}
-            student{roster.length !== 1 ? 's' : ''}
+            {t('instructor.studentCount', {
+              name: profile.first_name,
+              n: roster.length,
+              s: roster.length !== 1 ? 's' : '',
+            })}
           </p>
         </div>
         <button
@@ -47,8 +48,7 @@ export default function InstructorView({ profile }) {
           className="student-dashboard__signout"
           onClick={handleSignOut}
         >
-          <span lang="tr">Çıkış</span>
-          {' / Sign out'}
+          {t('instructor.signOut')}
         </button>
       </header>
 
@@ -58,8 +58,7 @@ export default function InstructorView({ profile }) {
           className="instructor-view__primary"
           onClick={() => setShowAdd(true)}
         >
-          + <span lang="tr">Öğrenci ekle</span>
-          {' / Add Student'}
+          {t('instructor.addStudent')}
         </button>
         <a
           href="#/instructor/print-consent"
@@ -67,51 +66,30 @@ export default function InstructorView({ profile }) {
           rel="noopener"
           className="instructor-view__secondary"
         >
-          <span lang="tr">Veli izin formu</span>
-          {' / Consent form'}
+          {t('instructor.consentForm')}
         </a>
         {profile.role === 3 && (
           <a href="#/record" className="instructor-view__secondary">
-            <span lang="tr">Ses kaydı</span>
-            {' / Record audio'}
+            {t('instructor.recordAudio')}
           </a>
         )}
       </div>
 
       <section className="roster" aria-label="Students">
-        <span className="lesson-list__label">
-          <span lang="tr">Öğrenciler</span>
-          {' / Students'}
-        </span>
+        <span className="lesson-list__label">{t('instructor.studentsLabel')}</span>
 
         {roster.length === 0 ? (
-          <p className="empty-state">
-            <span lang="tr">Henüz öğrenci eklenmedi.</span>
-            <br />
-            No students yet. Click <strong>+ Add Student</strong> to begin.
-          </p>
+          <p className="empty-state">{t('instructor.emptyRoster')}</p>
         ) : (
           <div className="roster__scroll">
             <div className="roster__table" role="table">
               <div className="roster__head" role="row">
-                <span role="columnheader">
-                  <span lang="tr">İsim</span>
-                  {' / Name'}
-                </span>
-                <span role="columnheader">
-                  <span lang="tr">Şu an</span>
-                  {' / Current'}
-                </span>
-                <span role="columnheader">
-                  <span lang="tr">Geçti</span>
-                  {' / Passed'}
-                </span>
+                <span role="columnheader">{t('instructor.col.name')}</span>
+                <span role="columnheader">{t('instructor.col.current')}</span>
+                <span role="columnheader">{t('instructor.col.passed')}</span>
                 <span role="columnheader">7d</span>
                 <span role="columnheader">30d</span>
-                <span role="columnheader">
-                  <span lang="tr">Son giriş</span>
-                  {' / Last seen'}
-                </span>
+                <span role="columnheader">{t('instructor.col.lastSeen')}</span>
               </div>
               {roster.map((s) => (
                 <a
@@ -128,8 +106,8 @@ export default function InstructorView({ profile }) {
                   </span>
                   <span role="cell">
                     {s.current_lesson != null
-                      ? `Lesson ${s.current_lesson}`
-                      : '— complete —'}
+                      ? t('instructor.lessonN', { n: s.current_lesson })
+                      : t('instructor.complete')}
                   </span>
                   <span role="cell">
                     {s.passed_count ?? 0}/28
@@ -137,7 +115,7 @@ export default function InstructorView({ profile }) {
                   <span role="cell">{s.logins_7d ?? 0}</span>
                   <span role="cell">{s.logins_30d ?? 0}</span>
                   <span role="cell" className="roster__last-seen">
-                    {formatLastSeen(s.last_seen)}
+                    {formatLastSeen(s.last_seen, t)}
                   </span>
                 </a>
               ))}
@@ -165,18 +143,18 @@ export default function InstructorView({ profile }) {
   );
 }
 
-function formatLastSeen(iso) {
+function formatLastSeen(iso, t) {
   if (!iso) return '—';
   const ms = Date.now() - new Date(iso).getTime();
-  if (ms < 0) return 'just now';
+  if (ms < 0) return t('instructor.lastSeen.now');
   const min = Math.floor(ms / 60000);
-  if (min < 1) return 'just now';
-  if (min < 60) return `${min}m ago`;
+  if (min < 1) return t('instructor.lastSeen.now');
+  if (min < 60) return t('instructor.lastSeen.minsAgo', { n: min });
   const hr = Math.floor(min / 60);
-  if (hr < 24) return `${hr}h ago`;
+  if (hr < 24) return t('instructor.lastSeen.hoursAgo', { n: hr });
   const day = Math.floor(hr / 24);
-  if (day < 30) return `${day}d ago`;
+  if (day < 30) return t('instructor.lastSeen.daysAgo', { n: day });
   const mo = Math.floor(day / 30);
-  if (mo < 12) return `${mo}mo ago`;
-  return `${Math.floor(mo / 12)}y ago`;
+  if (mo < 12) return t('instructor.lastSeen.monthsAgo', { n: mo });
+  return t('instructor.lastSeen.yearsAgo', { n: Math.floor(mo / 12) });
 }

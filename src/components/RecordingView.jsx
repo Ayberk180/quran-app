@@ -16,12 +16,14 @@ import { createRecorder, extensionForMime } from '../lib/recorder.js';
 import { makeZip } from '../lib/zip.js';
 import { signOut } from '../lib/auth.js';
 import { navigate } from '../lib/router.js';
+import { useLanguage } from '../lib/i18n.jsx';
 
 // Short pause between pressing Record and actually capturing, so the mouse
 // click that started the take isn't picked up by the mic.
 const START_DELAY_MS = 500;
 
 export default function RecordingView({ manifest, profile }) {
+  const { t } = useLanguage();
   const lessons = manifest.lessons;
   const [lessonId, setLessonId] = useState(lessons[0]?.id ?? '');
   // recordings: { [phraseId]: { blob, url, ext } }
@@ -78,7 +80,7 @@ export default function RecordingView({ manifest, profile }) {
     } catch (err) {
       setRecordingId(null);
       setPreparing(false);
-      setError(err.message || 'Could not start recording.');
+      setError(err.message || t('recording.error.start'));
     }
   }
 
@@ -93,7 +95,7 @@ export default function RecordingView({ manifest, profile }) {
         return { ...prev, [phraseId]: { blob, url: URL.createObjectURL(blob), ext } };
       });
     } catch (err) {
-      setError(err.message || 'Could not save recording.');
+      setError(err.message || t('recording.error.save'));
     } finally {
       setRecordingId(null);
     }
@@ -117,7 +119,7 @@ export default function RecordingView({ manifest, profile }) {
       a.remove();
       URL.revokeObjectURL(url);
     } catch (err) {
-      setError(err.message || 'Could not build the zip.');
+      setError(err.message || t('recording.error.zip'));
     } finally {
       setZipping(false);
     }
@@ -135,14 +137,9 @@ export default function RecordingView({ manifest, profile }) {
     <div className="record-view">
       <header className="record-view__header">
         <div>
-          <h1 className="record-view__title">
-            <span lang="tr">Ses kaydı</span>
-            {' / Record Audio'}
-          </h1>
+          <h1 className="record-view__title">{t('recording.title')}</h1>
           <p className="record-view__meta">
-            {profile.first_name} ·{' '}
-            <span lang="tr">yönetici aracı</span>
-            {' / admin tool'}
+            {profile.first_name} · {t('recording.adminTool')}
           </p>
         </div>
         <button
@@ -150,15 +147,13 @@ export default function RecordingView({ manifest, profile }) {
           className="student-dashboard__signout"
           onClick={handleSignOut}
         >
-          <span lang="tr">Çıkış</span>
-          {' / Sign out'}
+          {t('recording.signOut')}
         </button>
       </header>
 
       <div className="record-view__controls">
         <label className="record-view__lesson-label">
-          <span lang="tr">Ders</span>
-          {' / Lesson'}
+          {t('recording.lesson')}
           <select
             className="record-view__select"
             value={lessonId}
@@ -174,9 +169,7 @@ export default function RecordingView({ manifest, profile }) {
         </label>
 
         <div className="record-view__progress">
-          {recordedInLesson}/{total}{' '}
-          <span lang="tr">kaydedildi</span>
-          {' / recorded'}
+          {t('recording.recorded', { n: recordedInLesson, total })}
         </div>
 
         <button
@@ -185,11 +178,9 @@ export default function RecordingView({ manifest, profile }) {
           onClick={handleDownload}
           disabled={recordedInLesson === 0 || zipping || recordingId != null}
         >
-          {zipping ? (
-            <>… <span lang="tr">hazırlanıyor</span></>
-          ) : (
-            <>⬇ <span lang="tr">Dersi indir</span>{` / Download ${lesson.id}.zip`}</>
-          )}
+          {zipping
+            ? t('recording.preparing')
+            : `⬇ ${t('recording.download', { file: `${lesson.id}.zip` })}`}
         </button>
       </div>
 
@@ -217,8 +208,7 @@ export default function RecordingView({ manifest, profile }) {
               <div className="record-row__actions">
                 {isRecording && preparing ? (
                   <button type="button" className="record-row__prep" disabled>
-                    <span lang="tr">Hazır olun…</span>
-                    {' / Get ready…'}
+                    {t('recording.getReady')}
                   </button>
                 ) : isRecording ? (
                   <button
@@ -226,7 +216,7 @@ export default function RecordingView({ manifest, profile }) {
                     className="record-row__stop"
                     onClick={() => handleStop(phrase.id)}
                   >
-                    ⏹ <span lang="tr">Durdur</span> · {elapsed.toFixed(1)}s
+                    ⏹ {t('recording.stop')} · {elapsed.toFixed(1)}s
                   </button>
                 ) : (
                   <button
@@ -235,7 +225,7 @@ export default function RecordingView({ manifest, profile }) {
                     onClick={() => handleRecord(phrase.id)}
                     disabled={otherRecording}
                   >
-                    ● {rec ? <span lang="tr">Tekrar</span> : <span lang="tr">Kaydet</span>}
+                    ● {rec ? t('recording.retry') : t('recording.record')}
                   </button>
                 )}
 

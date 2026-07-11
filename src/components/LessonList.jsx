@@ -5,7 +5,10 @@
  * .lesson-card--completed modifier. A small sign-in / dashboard link sits in
  * the header so the auth flow is discoverable.
  */
+import { useLanguage } from '../lib/i18n.jsx';
+
 export default function LessonList({ manifest, profile, progressMap }) {
+  const { t } = useLanguage();
   const count = manifest.lessons.length;
 
   const authHref = !profile
@@ -13,25 +16,18 @@ export default function LessonList({ manifest, profile, progressMap }) {
     : profile.role >= 2
     ? '#/instructor'
     : '#/me';
-  const authLabelTr = !profile
-    ? 'Giriş yap'
+  const authLabelKey = !profile
+    ? 'home.auth.signIn'
     : profile.role >= 2
-    ? 'Yönetim'
-    : 'Profilim';
-  const authLabelEn = !profile
-    ? 'Sign in'
-    : profile.role >= 2
-    ? 'Instructor'
-    : 'My progress';
+    ? 'home.auth.instructor'
+    : 'home.auth.myProgress';
 
   return (
     <div>
       {/* ── App header ──────────────────────────────────────────────────── */}
       <header className="app-header">
         <a href={authHref} className="app-header__auth">
-          <span lang="tr">{authLabelTr}</span>
-          {' / '}
-          <span>{authLabelEn}</span>
+          {t(authLabelKey)}
         </a>
 
         <h1 className="app-header__title">{manifest.title}</h1>
@@ -39,17 +35,14 @@ export default function LessonList({ manifest, profile, progressMap }) {
         <span className="app-header__accent" aria-hidden="true" />
 
         <p className="app-header__meta">
-          <span lang="tr">{count} ders</span>
-          <span className="app-header__sep" aria-hidden="true">·</span>
-          <span>{count} lesson{count !== 1 ? 's' : ''}</span>
+          {t('home.lessonCount', { n: count, s: count !== 1 ? 's' : '' })}
         </p>
       </header>
 
       {/* ── Lesson list section ─────────────────────────────────────────── */}
       <section className="lesson-list" aria-label="Lessons">
         <span className="lesson-list__label" aria-hidden="true">
-          <span lang="tr">Dersler</span>
-          {' / Lessons'}
+          {t('home.lessonsLabel')}
         </span>
 
         <div className="lesson-grid">
@@ -80,7 +73,7 @@ export default function LessonList({ manifest, profile, progressMap }) {
                     className="lesson-card__count"
                     aria-label={`${phraseCount} phrases`}
                   >
-                    <span lang="tr">{phraseCount} ifade</span>
+                    {t('home.phraseCount', { n: phraseCount, s: phraseCount !== 1 ? 's' : '' })}
                   </span>
                 )}
               </a>
@@ -90,10 +83,7 @@ export default function LessonList({ manifest, profile, progressMap }) {
       </section>
 
       <footer className="app-footer">
-        <a href="#/privacy">
-          <span lang="tr">Gizlilik</span>
-          {' / Privacy'}
-        </a>
+        <a href="#/privacy">{t('footer.privacy')}</a>
       </footer>
     </div>
   );

@@ -12,8 +12,10 @@
 import { findCurrentLesson } from '../lib/progress.js';
 import { signOut } from '../lib/auth.js';
 import { navigate } from '../lib/router.js';
+import { useLanguage } from '../lib/i18n.jsx';
 
 export default function StudentDashboard({ profile, manifest, progressMap }) {
+  const { t } = useLanguage();
   if (!manifest || !progressMap || !profile) return null;
 
   const lessons = manifest.lessons;
@@ -33,15 +35,10 @@ export default function StudentDashboard({ profile, manifest, progressMap }) {
       <header className="student-dashboard__header">
         <div>
           <h1 className="student-dashboard__title">
-            <span lang="tr">Hoş geldin, {profile.first_name}</span>
-            {` / Welcome back, ${profile.first_name}`}
+            {t('dashboard.welcome', { name: profile.first_name })}
           </h1>
           <p className="student-dashboard__meta">
-            <span lang="tr">
-              {passedCount}/{lessons.length} ders tamamlandı
-            </span>
-            <span className="app-header__sep" aria-hidden="true">·</span>
-            <span>{passedCount}/{lessons.length} passed</span>
+            {t('dashboard.passedProgress', { passed: passedCount, total: lessons.length })}
           </p>
         </div>
         <button
@@ -49,8 +46,7 @@ export default function StudentDashboard({ profile, manifest, progressMap }) {
           className="student-dashboard__signout"
           onClick={handleSignOut}
         >
-          <span lang="tr">Çıkış</span>
-          {' / Sign out'}
+          {t('dashboard.signOut')}
         </button>
       </header>
 
@@ -58,8 +54,7 @@ export default function StudentDashboard({ profile, manifest, progressMap }) {
       {currentLesson ? (
         <section className="student-dashboard__current">
           <span className="student-dashboard__label">
-            <span lang="tr">Şu anki dersin</span>
-            {' / Your current lesson'}
+            {t('dashboard.currentLesson')}
           </span>
           <a
             href={`#/${currentLesson.id}`}
@@ -78,18 +73,14 @@ export default function StudentDashboard({ profile, manifest, progressMap }) {
         </section>
       ) : (
         <section className="student-dashboard__current">
-          <p className="student-dashboard__complete">
-            <span lang="tr">Tüm dersleri tamamladın! Maşaallah.</span>
-            {' / You’ve passed every lesson. Masha’Allah.'}
-          </p>
+          <p className="student-dashboard__complete">{t('dashboard.allDone')}</p>
         </section>
       )}
 
       {/* ── All lessons grid ──────────────────────────────────────────── */}
       <section className="lesson-list" aria-label="All lessons">
         <span className="lesson-list__label" aria-hidden="true">
-          <span lang="tr">Tüm dersler</span>
-          {' / All lessons'}
+          {t('dashboard.allLessons')}
         </span>
 
         <div className="lesson-grid">
@@ -122,7 +113,7 @@ export default function StudentDashboard({ profile, manifest, progressMap }) {
                     className="lesson-card__count"
                     aria-label={`${phraseCount} phrases`}
                   >
-                    <span lang="tr">{phraseCount} ifade</span>
+                    {t('home.phraseCount', { n: phraseCount, s: phraseCount !== 1 ? 's' : '' })}
                   </span>
                 )}
               </a>

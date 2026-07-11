@@ -7,8 +7,10 @@
  */
 import { useEffect, useState } from 'react';
 import { addStudent } from '../lib/admin.js';
+import { useLanguage } from '../lib/i18n.jsx';
 
 export default function AddStudentForm({ onClose, onCreated }) {
+  const { t } = useLanguage();
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName]   = useState('');
   const [consent, setConsent]     = useState(false);
@@ -28,11 +30,11 @@ export default function AddStudentForm({ onClose, onCreated }) {
     e.preventDefault();
     if (busy) return;
     if (!firstName.trim()) {
-      setError('First name required');
+      setError(t('addStudent.error.firstName'));
       return;
     }
     if (!consent) {
-      setError('Parental consent must be confirmed');
+      setError(t('addStudent.error.consent'));
       return;
     }
     setBusy(true);
@@ -46,7 +48,7 @@ export default function AddStudentForm({ onClose, onCreated }) {
       setCreated(result);
       onCreated?.();
     } catch (e) {
-      setError(e.message || 'Failed');
+      setError(e.message || t('addStudent.error.failed'));
     } finally {
       setBusy(false);
     }
@@ -55,18 +57,12 @@ export default function AddStudentForm({ onClose, onCreated }) {
   if (created) {
     return (
       <div className="add-student__result">
-        <h2 className="add-student__success-title">
-          <span lang="tr">Eklendi</span>
-          {' / Added'}
-        </h2>
+        <h2 className="add-student__success-title">{t('addStudent.added')}</h2>
         <p className="add-student__name">
           {created.first_name}
           {created.last_name ? ` ${created.last_name}` : ''}
         </p>
-        <p className="add-student__pin-label">
-          <span lang="tr">PIN</span>
-          {' / PIN'}
-        </p>
+        <p className="add-student__pin-label">{t('addStudent.pinLabel')}</p>
         <div className="add-student__pin-row">
           <p className="add-student__pin">{created.student_code}</p>
           <button
@@ -78,14 +74,10 @@ export default function AddStudentForm({ onClose, onCreated }) {
               setTimeout(() => setCopied(false), 2000);
             }}
           >
-            {copied ? 'Copied!' : 'Copy'}
+            {copied ? t('addStudent.copied') : t('addStudent.copy')}
           </button>
         </div>
-        <p className="add-student__hint">
-          <span lang="tr">Bunu yazın — bir daha gösterilmeyecek.</span>
-          <br />
-          Write this down — it won&rsquo;t be shown again.
-        </p>
+        <p className="add-student__hint">{t('addStudent.writeDown')}</p>
         <div className="add-student__actions">
           <a
             href={`#/instructor/student/${created.profile_id}/print-card`}
@@ -93,16 +85,14 @@ export default function AddStudentForm({ onClose, onCreated }) {
             rel="noopener"
             className="add-student__action add-student__action--primary"
           >
-            <span lang="tr">PIN kartını yazdır</span>
-            {' / Print PIN card'}
+            {t('addStudent.printPinCard')}
           </a>
           <button
             type="button"
             className="add-student__action"
             onClick={onClose}
           >
-            <span lang="tr">Tamam</span>
-            {' / Done'}
+            {t('addStudent.done')}
           </button>
         </div>
       </div>
@@ -111,29 +101,18 @@ export default function AddStudentForm({ onClose, onCreated }) {
 
   return (
     <form className="add-student" onSubmit={submit}>
-      <h2 className="add-student__title">
-        <span lang="tr">Yeni öğrenci</span>
-        {' / Add Student'}
-      </h2>
+      <h2 className="add-student__title">{t('addStudent.title')}</h2>
 
       <p className="add-student__hint">
-        <span lang="tr">
-          Velinin onayını kayıttan önce yazılı olarak alın.
-        </span>
-        <br />
-        Parents must sign the consent form before you save the student.
+        {t('addStudent.hint')}
         {' '}
         <a href="#/instructor/print-consent" target="_blank" rel="noopener">
-          <span lang="tr">Boş formu yazdır</span>
-          {' / Print blank form'}
+          {t('addStudent.printBlank')}
         </a>
       </p>
 
       <label className="login-form__field">
-        <span>
-          <span lang="tr">Ad</span>
-          {' / First name'}
-        </span>
+        <span>{t('addStudent.firstName')}</span>
         <input
           type="text"
           value={firstName}
@@ -145,10 +124,7 @@ export default function AddStudentForm({ onClose, onCreated }) {
       </label>
 
       <label className="login-form__field">
-        <span>
-          <span lang="tr">Soyad</span>
-          {' / Last name (optional)'}
-        </span>
+        <span>{t('addStudent.lastName')}</span>
         <input
           type="text"
           value={lastName}
@@ -163,35 +139,21 @@ export default function AddStudentForm({ onClose, onCreated }) {
           checked={consent}
           onChange={(e) => setConsent(e.target.checked)}
         />
-        <span>
-          <span lang="tr">
-            Velinin imzaladığı izin formunu aldım.
-          </span>
-          <br />
-          I have collected the parent&rsquo;s signed consent form.
-        </span>
+        <span>{t('addStudent.consentLabel')}</span>
       </label>
 
       {error && <p className="login-view__error" role="alert">{error}</p>}
 
       <div className="add-student__actions">
         <button type="button" className="add-student__action" onClick={onClose}>
-          <span lang="tr">İptal</span>
-          {' / Cancel'}
+          {t('addStudent.cancel')}
         </button>
         <button
           type="submit"
           className="add-student__action add-student__action--primary"
           disabled={busy}
         >
-          {busy ? (
-            <>Saving…</>
-          ) : (
-            <>
-              <span lang="tr">Kaydet</span>
-              {' / Save'}
-            </>
-          )}
+          {busy ? t('addStudent.saving') : t('addStudent.save')}
         </button>
       </div>
     </form>

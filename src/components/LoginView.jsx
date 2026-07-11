@@ -1,8 +1,10 @@
 import { useState } from 'react';
 import { signInWithPin, signInWithEmail } from '../lib/auth.js';
 import { navigate } from '../lib/router.js';
+import { useLanguage } from '../lib/i18n.jsx';
 
 export default function LoginView() {
+  const { t } = useLanguage();
   const [mode, setMode] = useState('student');
   const [pin, setPin] = useState('');
   const [email, setEmail] = useState('');
@@ -23,7 +25,7 @@ export default function LoginView() {
       await signInWithPin(pin);
       navigate('#/me');
     } catch (e) {
-      setError(e.message || 'Sign-in failed');
+      setError(e.message || t('login.error.failed'));
       setPin('');
     } finally {
       setBusy(false);
@@ -38,7 +40,7 @@ export default function LoginView() {
       const profile = await signInWithEmail(email, password);
       navigate(profile.role >= 2 ? '#/instructor' : '#/me');
     } catch (e) {
-      setError(e.message || 'Sign-in failed');
+      setError(e.message || t('login.error.failed'));
     } finally {
       setBusy(false);
     }
@@ -57,17 +59,7 @@ export default function LoginView() {
   return (
     <div className="login-view">
       <h1 className="login-view__title">
-        {mode === 'student' ? (
-          <>
-            <span lang="tr">Giriş</span>
-            {' / Sign In'}
-          </>
-        ) : (
-          <>
-            <span lang="tr">Öğretmen Girişi</span>
-            {' / Instructor Sign In'}
-          </>
-        )}
+        {mode === 'student' ? t('login.title.student') : t('login.title.instructor')}
       </h1>
 
       {mode === 'student' ? (
@@ -106,7 +98,7 @@ export default function LoginView() {
               className="pin-pad__key pin-pad__key--util"
               onClick={backspace}
               disabled={busy || pin.length === 0}
-              aria-label="Backspace"
+              aria-label={t('login.backspace')}
             >
               ←
             </button>
@@ -123,7 +115,7 @@ export default function LoginView() {
               className="pin-pad__key pin-pad__key--submit"
               onClick={submitPin}
               disabled={pin.length !== 6 || busy}
-              aria-label="Submit PIN"
+              aria-label={t('login.submitPin')}
             >
               ✓
             </button>
@@ -132,7 +124,7 @@ export default function LoginView() {
       ) : (
         <form onSubmit={submitEmail} className="login-form">
           <label className="login-form__field">
-            <span>Email</span>
+            <span>{t('login.email')}</span>
             <input
               type="email"
               value={email}
@@ -143,7 +135,7 @@ export default function LoginView() {
           </label>
 
           <label className="login-form__field">
-            <span>Password</span>
+            <span>{t('login.password')}</span>
             <input
               type="password"
               value={password}
@@ -156,7 +148,7 @@ export default function LoginView() {
           <p className="login-view__error" role="alert">{error}</p>
 
           <button type="submit" className="login-form__submit" disabled={busy}>
-            {busy ? 'Signing in…' : 'Sign in'}
+            {busy ? t('login.signingIn') : t('login.signIn')}
           </button>
         </form>
       )}
@@ -166,24 +158,11 @@ export default function LoginView() {
         className="login-view__toggle"
         onClick={() => switchMode(mode === 'student' ? 'instructor' : 'student')}
       >
-        {mode === 'student' ? (
-          <>
-            <span lang="tr">Öğretmen girişi</span>
-            {' / Instructor sign-in'}
-          </>
-        ) : (
-          <>
-            <span lang="tr">Öğrenci girişi</span>
-            {' / Student sign-in'}
-          </>
-        )}
+        {mode === 'student' ? t('login.switchTo.instructor') : t('login.switchTo.student')}
       </button>
 
       <p className="login-view__footer">
-        <a href="#/privacy">
-          <span lang="tr">Gizlilik</span>
-          {' / Privacy'}
-        </a>
+        <a href="#/privacy">{t('footer.privacy')}</a>
       </p>
     </div>
   );

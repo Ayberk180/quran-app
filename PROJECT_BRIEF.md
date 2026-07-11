@@ -231,7 +231,7 @@ Build in this order. Each phase should produce something runnable.
 
 - **Which book exactly?** Title, author, edition. Confirms which audio matches which phrase.
 - **Audio reciter / qari?** Permission to redistribute the recordings? (Important — even for a free masjid app, redistributing someone else's recordings without permission is not okay.)
-- **Languages on the UI?** English only, or English + Arabic + (Urdu / Bengali / Turkish / etc.)?
+- ~~**Languages on the UI?**~~ Resolved (2026-07): English by default with a top-corner toggle to Turkish, showing one language at a time. Printable parent forms (PIN card, consent form) stay always-bilingual regardless of the toggle. See `PRODUCT.md` and `src/lib/i18n.jsx`.
 - **Right-to-left or left-to-right page order?** The book is RTL; the lesson list could go either way.
 - **Who owns the deployment?** A volunteer's Cloudflare account? A masjid-owned account? Decide before pushing live.
 

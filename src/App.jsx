@@ -15,6 +15,8 @@ import PrintPinCard from './components/PrintPinCard.jsx';
 import PrintConsentForm from './components/PrintConsentForm.jsx';
 import PrivacyPage from './components/PrivacyPage.jsx';
 import SignInPrompt from './components/SignInPrompt.jsx';
+import LanguageToggle from './components/LanguageToggle.jsx';
+import { LanguageProvider } from './lib/i18n.jsx';
 
 const AUTH_ROUTES = new Set([
   'student-dashboard',
@@ -106,6 +108,7 @@ export default function App() {
     }
   }, [route, profile]);
 
+  function renderRoute() {
   if (error) {
     return <p className="load-error">Failed to load lessons. Please refresh.</p>;
   }
@@ -194,5 +197,15 @@ export default function App() {
       />
       {authReady && !profile && <SignInPrompt />}
     </>
+  );
+  }
+
+  return (
+    <LanguageProvider>
+      {route.view !== 'print-pin-card' && route.view !== 'print-consent' && (
+        <LanguageToggle />
+      )}
+      {renderRoute()}
+    </LanguageProvider>
   );
 }
